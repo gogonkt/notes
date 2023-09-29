@@ -29,7 +29,7 @@ USB MIDI Controller https://github.com/hugbed/midi-controller
 # Linux
 ArchBang_Install.md https://gist.github.com/gogonkt/106cda0b2b385b652961982b1b7d817f
 
-Alpine_Linux_Install .md https://gist.github.com/gogonkt/bd7c46410059491bc7fe014e7f39b842
+alpine_install.md https://github.com/gogonkt/notes/blob/main/alpine_install.md
 
 gordonturner/KVM OSX Guest 10.11 (El Capitan) with Clover.md https://gist.github.com/gordonturner/2a2e5ecde5e7860b52e2
 
