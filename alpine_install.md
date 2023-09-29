@@ -10,6 +10,12 @@ alpine_install.md
     addgroup mvll input
     addgroup mvll video
     addgroup mvll wheel
+    
+    # logout switch to user
+    startx
+    # and then
+     fluxbox-generate_menu -t alacritty
+
     apk add font-noto-cjk alsaconf alsa-utils xf86-input-synaptics thunar -i
     alsamixer
     mkdir /etc/X11/xorg.conf.d
