@@ -34,4 +34,8 @@ alpine_install.md https://github.com/gogonkt/notes/blob/main/alpine_install.md
 gordonturner/KVM OSX Guest 10.11 (El Capitan) with Clover.md https://gist.github.com/gordonturner/2a2e5ecde5e7860b52e2
 
 ---
+# Git
+https://github.com/gogonkt/notes/blob/main/git_as_notebook.md
+
+---
 Log things like Tom http://cholla.mmto.org/stm32all/
