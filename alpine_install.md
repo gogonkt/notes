@@ -65,6 +65,10 @@ alpine_install.md
     tab-session-manager https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
    Proxy SwitchyOmega https://addons.mozilla.org/en-US/firefox/addon/switchyomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+
+   ```
+   https://github.com/gogonkt/notes/blob/main/alpine_install.md
+   ```
     ```
     apk add firefox font-noto-cjk
     ```
