@@ -72,7 +72,15 @@ alpine_install.md
     ```
     apk add firefox font-noto-cjk
     ```
-    TouchPad
+
+    mscorefonts
+    ```
+    apk add msttcorefonts-installer
+    update-ms-fonts
+    fc-cache -f
+    ```
+    
+   TouchPad
     
     https://wiki.archlinux.org/title/Touchpad_Synaptics
     ```
