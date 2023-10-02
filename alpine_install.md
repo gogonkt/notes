@@ -102,3 +102,7 @@ alpine_install.md
 # Automatice Install
 
 https://wejn.org/2022/04/alpinelinux-unattended-install/
+
+https://git.sr.ht/~bt/alpine-linux-setup
+
+https://github.com/git-sgmoore/AlpineLinux-DailyDriverDesktop
