@@ -90,3 +90,7 @@ alpine_install.md
    apk add nnn nnn-plugins  udisks2
    nnn-getplugs
    ```
+
+# Automatice Install
+
+https://wejn.org/2022/04/alpinelinux-unattended-install/
