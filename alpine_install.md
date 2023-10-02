@@ -106,3 +106,5 @@ https://wejn.org/2022/04/alpinelinux-unattended-install/
 https://git.sr.ht/~bt/alpine-linux-setup
 
 https://github.com/git-sgmoore/AlpineLinux-DailyDriverDesktop
+
+https://copyprogramming.com/howto/creating-custom-alpine-linux-iso-with-an-answer-file-built-in
