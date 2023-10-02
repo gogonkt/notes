@@ -6,7 +6,7 @@ alpine_install.md
 3. ****** Lazy Desktop Setup/Fluxbox/Firefox
     ```
     setup-alpine
-    setup-xorg-base fluxbox font-terminus alacritty sudo firefox -i
+    setup-xorg-base fluxbox-esr font-terminus alacritty sudo firefox -i
     addgroup mvll input
     addgroup mvll video
     addgroup mvll wheel
