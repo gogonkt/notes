@@ -66,6 +66,8 @@ alpine_install.md
 
    Proxy SwitchyOmega https://addons.mozilla.org/en-US/firefox/addon/switchyomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
+   minimal-internet-experience https://addons.mozilla.org/en-US/firefox/addon/minimal-internet-experience/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+
    ```
    https://github.com/gogonkt/notes/raw/main/OmegaOptions.bak
    ```
