@@ -110,3 +110,7 @@ https://git.sr.ht/~bt/alpine-linux-setup
 https://github.com/git-sgmoore/AlpineLinux-DailyDriverDesktop
 
 https://copyprogramming.com/howto/creating-custom-alpine-linux-iso-with-an-answer-file-built-in
+
+https://www.wildtechgarden.ca/deploy-admin/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/
+
+https://www.fedux.org/articles/setup-alpine-linux-diskless.html
