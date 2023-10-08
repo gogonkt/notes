@@ -114,3 +114,6 @@ https://copyprogramming.com/howto/creating-custom-alpine-linux-iso-with-an-answe
 https://www.wildtechgarden.ca/deploy-admin/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/
 
 https://www.fedux.org/articles/setup-alpine-linux-diskless.html
+
+
+https://riedstra.dev/2022/12/alpine-laptop-desktop-how-to
