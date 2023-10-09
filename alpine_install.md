@@ -22,6 +22,7 @@ alpine_install.md
     vi /etc/X11/xorg.conf.d/70-synaptics.conf
     
     ```
+    70-synaptics.conf https://www.rainingforks.com/blog/2015/how-to-tweak-the-touch-sensitivity-of-a-mouse-touchpad-in-linux.html
    ```
     setup-alpine
     setup-xorg-base fluxbox alacritty font-terminus firefox font-noto-cjk alsaconf alsa-utils xf86-input-synaptics thunar -i
