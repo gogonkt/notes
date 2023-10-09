@@ -117,3 +117,10 @@ https://www.fedux.org/articles/setup-alpine-linux-diskless.html
 
 
 https://riedstra.dev/2022/12/alpine-laptop-desktop-how-to
+
+http://www.sodface.com/tech/alpine-chromebase-bspwm/
+
+
+# Sakura
+
+https://github.com/dabisu/sakura
