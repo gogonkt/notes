@@ -119,6 +119,8 @@ https://www.fedux.org/articles/setup-alpine-linux-diskless.html
 
 https://riedstra.dev/2022/12/alpine-laptop-desktop-how-to
 
+https://www.reddit.com/r/AlpineLinux/comments/13o433u/a_simple_alpine_linux_installation_guide_with/
+
 http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
 
