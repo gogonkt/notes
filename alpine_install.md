@@ -129,3 +129,8 @@ http://www.sodface.com/tech/alpine-chromebase-bspwm/
 https://github.com/dabisu/sakura
 
 # vis
+
+# chromium
+
+apk add -i chromium
+dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-google-chrome-f52f550a3fd
