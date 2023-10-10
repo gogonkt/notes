@@ -121,6 +121,10 @@ https://riedstra.dev/2022/12/alpine-laptop-desktop-how-to
 
 https://www.reddit.com/r/AlpineLinux/comments/13o433u/a_simple_alpine_linux_installation_guide_with/
 
+https://community.ops.io/jmarhee/setting-up-an-alpine-linux-desktop-workstation-46b8
+
+https://dataswamp.org/~solene/2023-07-14-alpine-linux-from-ram-but-persistent.html
+
 http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
 LXQt  https://wiki.alpinelinux.org/wiki/LXQt
