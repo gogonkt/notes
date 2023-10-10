@@ -123,6 +123,8 @@ https://www.reddit.com/r/AlpineLinux/comments/13o433u/a_simple_alpine_linux_inst
 
 http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
+LXQt  https://wiki.alpinelinux.org/wiki/LXQt
+
 
 # Sakura
 
@@ -133,5 +135,7 @@ https://github.com/dabisu/sakura
 # chromium
 
 apk add -i chromium
+
 chromium --proxy-server="http://192.168.1.201:8080"
+
 dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-google-chrome-f52f550a3fd
