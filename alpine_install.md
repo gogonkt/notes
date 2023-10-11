@@ -1,4 +1,4 @@
-alpine_install.md
+talpine_install.md
 
 1. Download Alpine ISO
 2. Boot the ISO with Ventoy Flash drive.
@@ -134,6 +134,7 @@ LXQt  https://wiki.alpinelinux.org/wiki/LXQt
 
 Diskless mode aaa https://youtu.be/DM2-5C2SOL0?si=BYllRzOUuA42nnEK
 
+https://wiki.alpinelinux.org/wiki/Alpine_local_backup#Saving_and_loading_ISO_image_customizations
 
 # Sakura
 
