@@ -132,6 +132,8 @@ http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
 LXQt  https://wiki.alpinelinux.org/wiki/LXQt
 
+Diskless mode aaa https://youtu.be/DM2-5C2SOL0?si=BYllRzOUuA42nnEK
+
 
 # Sakura
 
