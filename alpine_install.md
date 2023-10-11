@@ -140,6 +140,8 @@ https://wiki.alpinelinux.org/wiki/Alpine_local_backup#Saving_and_loading_ISO_ima
 
 https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device
 
+Shockingly easy to produce a custom Alpine Linux LiveCD https://eyedeekay.github.io/kloster/
+
 # Sakura
 
 https://github.com/dabisu/sakura
