@@ -125,6 +125,9 @@ https://community.ops.io/jmarhee/setting-up-an-alpine-linux-desktop-workstation-
 
 https://dataswamp.org/~solene/2023-07-14-alpine-linux-from-ram-but-persistent.html
 
+
+https://gist.github.com/profOnno/e55c1b9be73fa1ff92ec8014b549d01c
+
 http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
 LXQt  https://wiki.alpinelinux.org/wiki/LXQt
