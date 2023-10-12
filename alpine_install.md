@@ -155,3 +155,27 @@ apk add -i chromium
 chromium --proxy-server="http://192.168.1.201:8080"
 
 dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-google-chrome-f52f550a3fd
+
+# youtube + mpv
+
+https://www.funkyspacemonkey.com/mpv-youtube-dl-stop-wasting-resources
+
+```
+~ $ cat ~/.rc 
+alias tvb="http_proxy=http://192.168.1.201:8080 mpv --cache=no ytdl-format=22 "
+alias tvm="http_proxy=http://192.168.1.201:8080 mpv --cache=no ytdl-format=18 "
+```
+
+```
+[1080p]
+ytdl-format=bestvideo[height<=?1080]+bestaudio/best
+
+[720p]
+ytdl-format=bestvideo[height<=?720]+bestaudio/best
+
+[480p]
+ytdl-format=bestvideo[height<=?480]+bestaudio/best
+
+[360p]
+ytdl-format=bestvideo[height<=?360]+bestaudio/best
+```
