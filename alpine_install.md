@@ -161,7 +161,10 @@ dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-g
 https://www.funkyspacemonkey.com/mpv-youtube-dl-stop-wasting-resources
 
 ```
-# ~ $ cat ~/.rc 
+# ~ $ cat ~/.rc
+
+# --ytdl-format= <<     # px yt-dlp -F https://www.youtube.com/watch?v=xY9n3-9YMs8 >> tmpfile  #get the format number
+# from  https://github.com/ytdl-org/youtube-dl/blob/master/README.md#format-selection
 alias tvb="http_proxy=http://192.168.1.201:8080 mpv --cache=no --profile=720p"
 alias tvm="http_proxy=http://192.168.1.201:8080 mpv --cache=no --profile=360p"
 alias tv2='http_proxy=http://192.168.1.201:8080 mpv --cache=no --ytdl-format=22 '
