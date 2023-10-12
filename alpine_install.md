@@ -161,12 +161,15 @@ dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-g
 https://www.funkyspacemonkey.com/mpv-youtube-dl-stop-wasting-resources
 
 ```
-~ $ cat ~/.rc 
-alias tvb="http_proxy=http://192.168.1.201:8080 mpv --cache=no ytdl-format=22 "
-alias tvm="http_proxy=http://192.168.1.201:8080 mpv --cache=no ytdl-format=18 "
+# ~ $ cat ~/.rc 
+alias tvb="http_proxy=http://192.168.1.201:8080 mpv --cache=no --profile=720p"
+alias tvm="http_proxy=http://192.168.1.201:8080 mpv --cache=no --profile=360p"
+alias tv2='http_proxy=http://192.168.1.201:8080 mpv --cache=no --ytdl-format=22 '
+alias tv1='http_proxy=http://192.168.1.201:8080 mpv --cache=no --ytdl-format=18 '
 ```
 
 ```
+# ~ $ cat ~/.config/mpv/mpv.conf 
 [1080p]
 ytdl-format=bestvideo[height<=?1080]+bestaudio/best
 
@@ -178,4 +181,9 @@ ytdl-format=bestvideo[height<=?480]+bestaudio/best
 
 [360p]
 ytdl-format=bestvideo[height<=?360]+bestaudio/best
+
+# Now when you want to play a video, all you have to 
+# do is copy the yotube link and in the terminal type 
+#      mpv --profile=1080p youtube-link
+
 ```
