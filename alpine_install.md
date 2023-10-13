@@ -158,6 +158,10 @@ dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-g
 
 # youtube + mpv
 
+moccasin boots 24 
+
+https://write.corbpie.com/searching-youtube-videos-with-yt-dlp/
+
 https://www.funkyspacemonkey.com/mpv-youtube-dl-stop-wasting-resources
 
 ```
