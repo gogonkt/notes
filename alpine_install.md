@@ -101,6 +101,10 @@ talpine_install.md
    apk add nnn nnn-plugins  udisks2
    nnn-getplugs
    ```
+# .ashrc
+```
+echo 'ENV="$HOME/.ashrc"' >> $HOME/.profile
+```
 
 # Automatice Install
 
