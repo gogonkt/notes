@@ -102,6 +102,8 @@ talpine_install.md
    nnn-getplugs
    ```
 # .ashrc
+
+https://codeberg.org/dotdmt/AlpineSetup/src/branch/main/Basics
 ```
 echo 'ENV="$HOME/.ashrc"' >> $HOME/.profile
 ```
