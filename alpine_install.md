@@ -104,6 +104,10 @@ talpine_install.md
 # .ashrc
 
 https://codeberg.org/dotdmt/AlpineSetup/src/branch/main/Basics
+
+https://news.ycombinator.com/item?id=35837424
+
+ $ENV is for interactive shells, .profile is for login shells. Normal shells source these files according to to which of the two flags are set or not.
 ```
 echo 'ENV="$HOME/.ashrc"' >> $HOME/.profile
 ```
