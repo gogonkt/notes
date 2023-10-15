@@ -140,6 +140,8 @@ LXQt  https://wiki.alpinelinux.org/wiki/LXQt
 
 sway  https://wiki.archlinux.org/title/User:M0p/Sway_desktop
 
+http://epsi-rns.github.io/desktop/2018/04/03/fluxbox-config.html
+
 # Diskless mode aaa 
 
 https://youtu.be/DM2-5C2SOL0?si=BYllRzOUuA42nnEK
