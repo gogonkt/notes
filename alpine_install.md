@@ -138,6 +138,8 @@ http://www.sodface.com/tech/alpine-chromebase-bspwm/
 
 LXQt  https://wiki.alpinelinux.org/wiki/LXQt
 
+sway  https://wiki.archlinux.org/title/User:M0p/Sway_desktop
+
 # Diskless mode aaa 
 
 https://youtu.be/DM2-5C2SOL0?si=BYllRzOUuA42nnEK
