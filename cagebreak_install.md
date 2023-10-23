@@ -7,7 +7,20 @@
 5. apk -U upgrade
 6. apk add -i mesa-dri-gallium seatd dbus cagebreak font-noto firefox
  xterm
-7. $ cat ~/.profile
+7.
+```
+adduser $USER input
+adduser $USER audio
+adduser $USER video
+adduser $USER seat
+setup-devd udev
+rc-update add seatd
+rc-service seatd start
+rc-update add dbus
+rc-service dbus start
+```
+
+9. $ cat ~/.profile
 ```
 if [ -z $XDG_RUNTIME_DIR ]; then
     export XDG_RUNTIME_DIR="/tmp/$(id -u)-runtime-dir"
