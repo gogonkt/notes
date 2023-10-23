@@ -1,5 +1,15 @@
 diskless_usb_alpine_install.md
 
+part 1 : Host
+```
+setup-alpine
+vi /etc/ssh/sshd_config
+PermitRootLogin yes
+rc-service sshd restart
+ip addr
+
+```
+
 ref:
 
   https://www.fedux.org/articles/setup-alpine-linux-diskless.html
