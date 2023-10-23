@@ -9,7 +9,18 @@ rc-service sshd restart
 ip addr
 
 ```
+part 2 : Client
+```
+ssh root@<192.168.1.21
+apk -U upgrade
+fdisk /dev/sdc
+modprobe vfat
+mkfs.vfat /dev/sdc1
 
+setup-bootable -v /media/cdrom/ /dev/sdc1
+
+
+```
 ref:
 
   https://www.fedux.org/articles/setup-alpine-linux-diskless.html
