@@ -5,8 +5,7 @@
 3. ip addr
 4. vi /etc/apk/repositories
 5. apk -U upgrade
-6. apk add -i mesa-dri-gallium seatd dbus cagebreak font-noto firefox
- xterm
+6. apk add -i mesa-dri-gallium seatd dbus cagebreak font-noto xterm #firefox
 7.
 ```
 adduser $USER input
