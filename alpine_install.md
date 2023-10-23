@@ -116,7 +116,7 @@ echo 'ENV="$HOME/.ashrc"' >> $HOME/.profile
 
 https://wejn.org/2022/04/alpinelinux-unattended-install/
 
-https://git.sr.ht/~bt/alpine-linux-setup
+https://git.sr.ht/~bt/alpine-linux-setup  # sway aaa
 
 https://github.com/git-sgmoore/AlpineLinux-DailyDriverDesktop
 
@@ -129,7 +129,7 @@ https://www.fedux.org/articles/setup-alpine-linux-diskless.html
 
 https://riedstra.dev/2022/12/alpine-laptop-desktop-how-to
 
-https://www.reddit.com/r/AlpineLinux/comments/13o433u/a_simple_alpine_linux_installation_guide_with/
+https://www.reddit.com/r/AlpineLinux/comments/13o433u/a_simple_alpine_linux_installation_guide_with/ #sway aaa
 
 https://community.ops.io/jmarhee/setting-up-an-alpine-linux-desktop-workstation-46b8
 
