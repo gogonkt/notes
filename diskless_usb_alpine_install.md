@@ -9,8 +9,10 @@ ref:
 
   ## most important
 
- Verify that the primary partition is bootable
-    p Print list of partitions
-    If there is no ‘*’ next to the first partition, follow the next steps:
-    a Make the partition bootable (set boot flag)
-    1 Partition number 1
+  ```
+   Verify that the primary partition is bootable
+      p Print list of partitions
+      If there is no ‘*’ next to the first partition, follow the next steps:
+      a Make the partition bootable (set boot flag)
+      1 Partition number 1
+  ```
