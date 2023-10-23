@@ -20,7 +20,7 @@ rc-update add dbus
 rc-service dbus start
 ```
 
-9. $ cat ~/.profile
+8. $ cat ~/.profile
 ```
 if [ -z $XDG_RUNTIME_DIR ]; then
     export XDG_RUNTIME_DIR="/tmp/$(id -u)-runtime-dir"
