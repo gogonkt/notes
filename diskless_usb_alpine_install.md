@@ -18,7 +18,7 @@ modprobe vfat
 mkfs.vfat /dev/sdc1
 
 setup-bootable -v /media/cdrom/ /dev/sdc1
-
+reboot
 
 ```
 ref:
