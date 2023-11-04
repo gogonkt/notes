@@ -12,9 +12,14 @@ mkfs.ext4 /dev/mmcblk0p2
 
 mount /dev/mmcblk0p2 /mnt/
 cd /tmp/
+```
+001-005
+```
 ver=23.04.30
 url=https://codeberg.org/kiss-community/repo/releases/download/$ver
 file=kiss-chroot-$ver.tar.xz
+curl -fLO "$url/$file"
+
 ```
 
 
