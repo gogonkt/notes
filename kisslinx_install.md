@@ -20,8 +20,18 @@ url=https://codeberg.org/kiss-community/repo/releases/download/$ver
 file=kiss-chroot-$ver.tar.xz
 curl -fLO "$url/$file"
 sha256sum kiss-chroot-$ver.tar.xz
+cd /mnt
+tar xvf "$OLDPWD/$file"
 ```
+006-009
+```
+/mnt/bin/kiss-chroot /mnt
 
+mkdir ~/repos
+cd ~/repos
+git clone https://codeberg.org/kiss-community/repo
+
+```
 
 
 
