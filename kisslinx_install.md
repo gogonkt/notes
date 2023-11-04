@@ -43,4 +43,6 @@ https://kisscommunity.org/kiss/install/
 
 https://kisslinux.org/install.html
 
+https://www.kailashkatheth.com.np/2022/10/kiss-linux-test.html
+
 https://github.com/mcpcpc/install
