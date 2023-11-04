@@ -7,8 +7,14 @@ fdisk /dev/mmcblk0
   P1 +500M ef fat32 boot
   P2 +20G ext4
 modprobe vfat
-mkfs.vfat /dev/mmcblk0p1
+mkfs.vfat -F 32 /dev/mmcblk0p1
 mkfs.ext4 /dev/mmcblk0p2
+
+mount /dev/mmcblk0p2 /mnt/
+cd /tmp/
+ver=23.04.30
+url=https://codeberg.org/kiss-community/repo/releases/download/$ver
+file=kiss-chroot-$ver.tar.xz
 ```
 
 
