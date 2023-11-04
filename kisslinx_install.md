@@ -30,7 +30,7 @@ tar xvf "$OLDPWD/$file"
 mkdir ~/repos
 cd ~/repos
 git clone https://codeberg.org/kiss-community/repo
-
+export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH"
 ```
 
 
