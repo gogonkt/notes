@@ -36,6 +36,9 @@ export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH"
 
 
 ref:
+
 https://kisscommunity.org/kiss/install/
+
 https://kisslinux.org/install.html
+
 https://github.com/mcpcpc/install
