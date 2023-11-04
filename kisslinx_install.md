@@ -19,7 +19,7 @@ ver=23.04.30
 url=https://codeberg.org/kiss-community/repo/releases/download/$ver
 file=kiss-chroot-$ver.tar.xz
 curl -fLO "$url/$file"
-
+sha256sum kiss-chroot-$ver.tar.xz
 ```
 
 
