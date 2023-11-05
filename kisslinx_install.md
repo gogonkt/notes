@@ -10,7 +10,7 @@ modprobe vfat
 mkfs.vfat -F 32 /dev/mmcblk0p1
 mkfs.ext4 /dev/mmcblk0p2
 
-mount /dev/mmcblk0p2 /mnt/
+mount /dev/mmcblk0p2 /mnt/  # breack point 1 <==
 cd /tmp/
 ```
 001-005
@@ -25,7 +25,8 @@ tar xvf "$OLDPWD/$file"
 ```
 006-009
 ```
-/mnt/bin/kiss-chroot /mnt
+mount /dev/mmcblk0p1 /mnt/boot # breack point 2 <==
+/mnt/bin/kiss-chroot /mnt      # breack point 3 <==
 
 mkdir ~/repos
 cd ~/repos
