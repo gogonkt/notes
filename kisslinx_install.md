@@ -37,7 +37,19 @@ kiss s \*
 ```
 010-013
 ```
+vi ~/.profile
+export KISS_PATH=''
 export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$HOME/repos/repo/wayland:$KISS_PATH"
+
+# CFLAGS/CXXFLAGS
+# NOTE: The 'O' in '-O3' is the letter O and NOT 0 (ZERO). 
+export CFLAGS="-O3 -pipe -march=native"
+export CXXFLAGS="$CFLAGS"
+# MAKEFLAGS
+# NOTE: '4' should be changed to match the number of threads.
+#       This value can be found by running 'nproc'.
+export MAKEFLAGS="-j2"
+
 echo $KISS_PATH
 
 ```
