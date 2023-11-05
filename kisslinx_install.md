@@ -43,7 +43,7 @@ git config gpg.ssh.allowedSignersFile .allowed_signers
 git config merge.verifySignatures true
 ```
 
-014-0
+014-017
 
 ```
 vi ~/.profile
@@ -68,6 +68,10 @@ cd /var/db/kiss/installed && kiss build *
 
 ```
 
+018
+```
+
+```
 
 ref:
 
