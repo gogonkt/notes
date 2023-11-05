@@ -10,7 +10,7 @@ modprobe vfat
 mkfs.vfat -F 32 /dev/mmcblk0p1
 mkfs.ext4 /dev/mmcblk0p2
 
-mount /dev/mmcblk0p2 /mnt/  # breack point 1 <==
+mount /dev/mmcblk0p2 /mnt/  # breack point 1 <== for pick up an installing break
 cd /tmp/
 ```
 001-005
