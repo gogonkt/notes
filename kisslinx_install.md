@@ -36,6 +36,15 @@ kiss s \*
 
 ```
 010-013
+
+```
+cd ~/repos/repo
+git config gpg.ssh.allowedSignersFile .allowed_signers
+git config merge.verifySignatures true
+```
+
+014-0
+
 ```
 vi ~/.profile
 export KISS_PATH=''
@@ -45,12 +54,15 @@ export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$HOME/repos/repo/
 # NOTE: The 'O' in '-O3' is the letter O and NOT 0 (ZERO). 
 export CFLAGS="-O3 -pipe -march=native"
 export CXXFLAGS="$CFLAGS"
+
 # MAKEFLAGS
 # NOTE: '4' should be changed to match the number of threads.
 #       This value can be found by running 'nproc'.
 export MAKEFLAGS="-j2"
 
-echo $KISS_PATH
+echo $KISS_PATH # check kiss path
+
+kiss u # update 
 
 ```
 
