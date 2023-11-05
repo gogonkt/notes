@@ -60,6 +60,10 @@ export CXXFLAGS="$CFLAGS"
 #       This value can be found by running 'nproc'.
 export MAKEFLAGS="-j2"
 
+# NOTE: for github
+alias proxyon="export http_proxy='http://192.168.1.201:8080';export https_proxy=$http_proxy"
+alias proxyoff="unset http_proxy;unset https_proxy"
+
 echo $KISS_PATH # check kiss path
 
 kiss u # update
