@@ -35,7 +35,12 @@ export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH"
 kiss s \*
 
 ```
+010-013
+```
+export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$HOME/repos/repo/wayland:$KISS_PATH"
+echo $KISS_PATH
 
+```
 
 
 ref:
