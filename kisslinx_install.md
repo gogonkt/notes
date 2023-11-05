@@ -62,7 +62,9 @@ export MAKEFLAGS="-j2"
 
 echo $KISS_PATH # check kiss path
 
-kiss u # update 
+kiss u # update
+
+cd /var/db/kiss/installed && kiss build *
 
 ```
 
