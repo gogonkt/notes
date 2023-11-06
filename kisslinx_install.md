@@ -52,8 +52,12 @@ export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$HOME/repos/repo/
 
 # CFLAGS/CXXFLAGS
 # NOTE: The 'O' in '-O3' is the letter O and NOT 0 (ZERO). 
-export CFLAGS="-O3 -pipe -march=native"
-export CXXFLAGS="$CFLAGS"
+# export CFLAGS="-O3 -pipe -march=native"
+# export CXXFLAGS="$CFLAGS"
+
+# NOTE: from https://codeberg.org/kiss-community/repo/releases
+export CFLAGS="-march=x86-64 -mtune=generic -pipe -Os"
+export CXXFLAGS="-march=x86-64 -mtune=generic -pipe -Os"
 
 # MAKEFLAGS
 # NOTE: '4' should be changed to match the number of threads.
