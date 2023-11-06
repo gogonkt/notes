@@ -79,6 +79,21 @@ cd /var/db/kiss/installed && ionice -c3 kiss build *
 
 018
 ```
+ls ~/.cache/kiss/sources/linux-headers  
+linux-6.1.15.tar.xz
+ 
+mkdir ~/kernel  
+cd ~/kernel  
+tar xvf  ~/.cache/kiss/sources/linux-headers/linux-*.tar.xz
+cd linux-6.1.15
+make defconfig
+
+patch -p1 < /usr/share/doc/kiss/wiki/kernel/no-perl.patch
+
+sed '/<stdlib.h>/a #include <linux/stddef.h>' \
+   tools/objtool/arch/x86/decode.c > _
+mv -f _ tools/objtool/arch/x86/decode.c
+kiss b libelf
 
 ```
 
