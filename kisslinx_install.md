@@ -31,7 +31,8 @@ mount /dev/mmcblk0p1 /mnt/boot # breack point 2 <==
 mkdir ~/repos
 cd ~/repos
 git clone https://codeberg.org/kiss-community/repo
-export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH"
+git clone https://codeberg.org/kiss-community/community
+# export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH" # NOTE: moved to ~/.profile
 kiss s \*
 
 ```
@@ -49,6 +50,7 @@ git config merge.verifySignatures true
 vi ~/.profile
 export KISS_PATH=''
 export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$HOME/repos/repo/wayland:$KISS_PATH"
+export KISS_PATH="$HOME/repos/community/community:$KISS_PATH"
 
 # CFLAGS/CXXFLAGS
 # NOTE: The 'O' in '-O3' is the letter O and NOT 0 (ZERO). 
