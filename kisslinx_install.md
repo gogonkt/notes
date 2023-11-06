@@ -72,7 +72,8 @@ echo $KISS_PATH # check kiss path
 
 kiss u # update
 
-cd /var/db/kiss/installed && kiss build *
+cd /var/db/kiss/installed && ionice -c3 kiss build *
+
 
 ```
 
