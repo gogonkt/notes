@@ -31,7 +31,7 @@ mount /dev/mmcblk0p1 /mnt/boot # breack point 2 <==
 mkdir ~/repos
 cd ~/repos
 git clone https://codeberg.org/kiss-community/repo
-git clone https://codeberg.org/kiss-community/community
+git clone https://codeberg.org/kiss-community/community # NOTE: add before 'kiss b perl'
 # export KISS_PATH="$HOME/repos/repo/core:$HOME/repos/repo/extra:$KISS_PATH" # NOTE: moved to ~/.profile
 kiss s \*
 
