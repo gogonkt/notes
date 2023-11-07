@@ -162,6 +162,10 @@ https://github.com/dabisu/sakura
 
 # vis
 
+# tmux
+
+https://gist.github.com/fzero/4338767
+
 # chromium
 
 apk add -i chromium
