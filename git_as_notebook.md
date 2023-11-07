@@ -11,3 +11,16 @@ https://linuxconcept.com/your-first-git-note-guide/
 GitHub Flow vs. OneFlow: Which Git Workflow Works the Best for You? https://betterprogramming.pub/a-simple-git-repository-strategy-93a0c7450f23
 
 https://www.freecodecamp.org/news/introduction-to-git-and-github/
+
+https://aws.plainenglish.io/how-to-edit-a-forked-repo-from-github-3616416c7bbf
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+* #fork a repo
+* git clone https
+* # edit
+* git status
+* git add
+* git commit -m "added a comment in the script"
+* git push -u origin main
+* # enter user name and token
