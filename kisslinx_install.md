@@ -108,3 +108,7 @@ https://kisslinux.org/install.html
 https://www.kailashkatheth.com.np/2022/10/kiss-linux-test.html
 
 https://github.com/mcpcpc/install
+
+https://www.reddit.com/r/kisslinux/comments/k2vlvb/building_your_kernel/
+
+https://github.com/mattbillenstein/kiss-setup
