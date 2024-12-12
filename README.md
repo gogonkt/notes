@@ -39,5 +39,8 @@ gordonturner/KVM OSX Guest 10.11 (El Capitan) with Clover.md https://gist.github
 # Git
 https://github.com/gogonkt/notes/blob/main/git_as_notebook.md
 
+# gfw
+
+https://myql.eu.org/article/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91#5dbabeb38c964304b6c640d4c05afe91
 ---
 Log things like Tom http://cholla.mmto.org/stm32all/
