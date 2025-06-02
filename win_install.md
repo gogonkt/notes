@@ -77,7 +77,10 @@ DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~ja-JP~0.0.1.0
 
 =============================
 
-WEPE ISO
+WEPE ISO 2.3
 
 https://www.bilibili.com/opus/958103252909424681
 
+2.2
+
+https://ostarted.com/88
