@@ -4,7 +4,9 @@
 
 https://github.com/NiREvil/windows-activation
 
+```
 irm https://get.activated.win | iex
+```
 
 ====================================================
 最好的KMS激活Windows和office网站v0v官方说明 https://www.weizhiyong.com/archives/1896 
