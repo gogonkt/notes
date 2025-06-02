@@ -1,5 +1,12 @@
 # win install
 
+# win 10 activation
+
+https://github.com/NiREvil/windows-activation
+
+irm https://get.activated.win | iex
+
+====================================================
 最好的KMS激活Windows和office网站v0v官方说明 https://www.weizhiyong.com/archives/1896 
 
 [本站永久地址] https://v0v.bid
@@ -32,4 +39,34 @@ Windows Server 2022（LTSC 版本）
 Windows Server 2022 Datacenter
 WX4NM-KYWYW-QJJR4-XV3QB-6VM33
 ```
+
+
+========================
+
+
+https://anal02.pixnet.net/blog/post/121378914
+
+WINDOWS10 “Traditional Chinese IME is not ready yet”
+
+這方式成功，剛更新完windows的痛
+
+打開CMDimage
+
+輸入   DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~zh-TW~0.0.1.0
+
+image
+
+注意要使用最高權限
+
+台灣繁中:
+
+DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~zh-TW~0.0.1.0
+
+香港繁中:
+
+DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~zh-HK~0.0.1.0
+
+日文可以試試這個指令:
+
+DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~ja-JP~0.0.1.0
 
