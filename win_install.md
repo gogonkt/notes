@@ -1,5 +1,7 @@
 # win install
 
+https://massgrave.dev/windows_ltsc_links
+
 # win 10 activation
 
 https://github.com/NiREvil/windows-activation
