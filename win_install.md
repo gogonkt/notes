@@ -1,5 +1,11 @@
 # win install
 
+# Ventoy + WEPE iso + WIN ISO + HD3000 driver
+
+https://www.reddit.com/r/lowendgaming/comments/1258usx/updated_win1011_drivers_for_intel_hd_3000/
+
+============================================
+
 https://massgrave.dev/windows_ltsc_links
 
 # win 10 activation
