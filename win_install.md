@@ -18,6 +18,7 @@ irm https://get.activated.win | iex
 
 
 ====================================================
+
 Proxy
 
 https://chromewebstore.google.com/detail/proxy-switchyomega-v3/hihblcmlaaademjlakdpicchbjnnnkbo
