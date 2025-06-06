@@ -80,7 +80,35 @@ DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~zh-HK~0.0.1.0
 
 DISM.exe /Online /Add-Capability /CapabilityName:Language.Basic~~~ja-JP~0.0.1.0
 
+=============================
 
+Language suport
+
+https://blog.samsam123.name.my/articles/windows-11--22h2-23h2-24h2-install-language-pack-via-dism
+
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/virtual-desktop/windows-11-language-packs.md
+
+```
+微软官方提供的 Features on Demand (FOD) 镜像，并且通过 DISM 安装这些语言包，等同于可以离线安装这些语言包了！
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/virtual-desktop/windows-11-language-packs.md
+
+从上面提供的 OneDrive 链接下载 Microsoft-Windows-LanguageFeatures-Basic-zh-cn-Package~31bf3856ad364e35~amd64_24H2.cab 文件
+
+请注意：这个文件仅支持 24H2 版本 , 23H2 / 22H2 需要下载 22H2-23H2-FOD-Lang.zip ，错误下载会导致DISM安装时报错 0x800f0818 
+
+
+然后，用管理员权限打开 Powershell ， 并输入如下指令 :
+
+dism /Online /Add-Package /PackagePath:/path/to/cab
+
+请替换 /path/to/cab 为正确路径 
+
+安装需用时 5-10分钟，请耐心等候. 安装成功后有概率要求重启电脑，请务必配合提示操作！
+
+
+安装成功后可以尝试输入法是否可以正常使用啦！
+
+```
 =============================
 
 WEPE ISO 2.3
