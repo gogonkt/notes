@@ -111,6 +111,32 @@ dism /Online /Add-Package /PackagePath:/path/to/cab
 ```
 =============================
 
+https://zhuanlan.zhihu.com/p/598577028
+
+```
+二、Appx方式；
+首先怎么得到appx格式的简体中文包让我费劲周折，最后受@Gravitation此贴启发：
+
+
+1、打开https://apps.microsoft.com/store/apps微软官方商店，搜索简体中文，得到Productld如下图红色箭头所示9NRMNT6GMZ70；
+
+https://apps.microsoft.com/detail/9pcj4dhcq1jq?hl=en-US&gl=US
+
+2、打开https://store.rg-adguard.net，选择Productld，输入9NRMNT6GMZ70，选择retail，最后找到最新版22621开头，离线下载appx包；
+
+https://store.rg-adguard.net/
+
+3、将离线包复制到C盘根目录下，打开PowerShell，切换到根目录，Add-AppxPackage开始安装；
+
+cd /
+
+Add-AppxPackage Microsoft.LanguageExperiencePackzh-CN_22621.11.66.0_neutral__8wekyb3d8bbwe.Appx
+
+4、重启电脑，然后开始如下图一开始切换语言，提示退出或者注销生效， 然后进入桌面后，下图二4处均改为简体中文，汉化就基本全部完成；
+```
+
+=============================
+
 WEPE ISO 2.3
 
 https://www.bilibili.com/opus/958103252909424681
