@@ -2,7 +2,7 @@
 
 # Ventoy + WEPE iso + WIN ISO + HD3000 driver
 
-chrome/fonts/ssh/7zip
+chrome/fonts/ssh/7zip/LangPack
 
 https://www.reddit.com/r/lowendgaming/comments/1258usx/updated_win1011_drivers_for_intel_hd_3000/
 
