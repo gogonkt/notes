@@ -172,3 +172,7 @@ https://www.bilibili.com/opus/583475361619691963
 # VHD + Ventoy
 
 https://www.techbang.com/posts/93725-windows-11-to-go
+
+# WTG + Ventoy + VHD
+
+https://hui-shao.com/ventoy-wtg/
