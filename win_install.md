@@ -2,6 +2,8 @@
 
 # Ventoy + WEPE iso + WIN ISO + HD3000 driver
 
+chrome/fonts/ssh/7zip
+
 https://www.reddit.com/r/lowendgaming/comments/1258usx/updated_win1011_drivers_for_intel_hd_3000/
 
 ============================================
@@ -25,6 +27,7 @@ powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 # Animation
 
  Settings > Accessibility > Animation effects.
+ 
 ====================================================
 
 Proxy
