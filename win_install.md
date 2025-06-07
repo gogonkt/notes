@@ -160,3 +160,11 @@ https://post.smzdm.com/p/aenl7gkq/
 
 windows + X
 
+https://www.bilibili.com/opus/583475361619691963
+
+软件准备
+-winNTsetup（用于部署Windows11系统）
+
+-dism++（用于备份当前驱动）
+
+-BOOTICE（用于添加虚拟磁盘启动项）
