@@ -16,7 +16,15 @@ https://github.com/NiREvil/windows-activation
 irm https://get.activated.win | iex
 ```
 
+# power
 
+https://www.xda-developers.com/proven-windows-11-tweaks-that-speed-up-my-pc/
+```
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+```
+# Animation
+
+ Settings > Accessibility > Animation effects.
 ====================================================
 
 Proxy
