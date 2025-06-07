@@ -168,3 +168,7 @@ https://www.bilibili.com/opus/583475361619691963
 -dism++（用于备份当前驱动）
 
 -BOOTICE（用于添加虚拟磁盘启动项）
+
+# VHD + Ventoy
+
+https://www.techbang.com/posts/93725-windows-11-to-go
