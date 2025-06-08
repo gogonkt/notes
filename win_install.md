@@ -154,11 +154,15 @@ Add-AppxPackage Microsoft.LanguageExperiencePackzh-CN_22621.11.66.0_neutral__8we
 
 =============================
 
-WEPE ISO 2.3
+# WEPE ISO 2.3
 
 https://www.bilibili.com/opus/958103252909424681
 
 2.2
+
+# portable Vbox
+
+https://gist.github.com/badrelmers/20990cd518fed05e5f171961c63e85ba
 
 ================================
 # VHD
