@@ -1,6 +1,10 @@
 # win install
 
-# Ventoy + WEPE iso + WIN ISO + HD3000 driver
+# Boot VHD on SSD aaa
+
+https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11
+
+# Ventoy + WEPE iso + WIN ISO + HD3000 driver  // too slow for usb 2.0 :(
 
 chrome/fonts/ssh/7zip/LangPack
 
