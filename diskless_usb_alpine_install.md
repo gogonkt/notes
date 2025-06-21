@@ -37,3 +37,8 @@ ref:
       a Make the partition bootable (set boot flag)
       1 Partition number 1
   ```
+
+https://github.com/IronOxidizer/alpine-persistent-usb
+
+https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device
+
