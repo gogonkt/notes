@@ -172,6 +172,19 @@ apk add -i chromium
 
 chromium --proxy-server="http://192.168.1.201:8080"
 
+## socks 5 
+
+https://www.chromium.org/developers/design-documents/network-stack/socks-proxy/
+
+```
+Configuring a SOCKS proxy server in Chrome
+To configure chrome to proxy traffic through the SOCKS v5 proxy server myproxy:8080, launch chrome with these two command-line flags:
+
+--proxy-server="socks5://myproxy:8080"
+
+--host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE myproxy"
+```
+
 dark https://medium.com/@vipulgote4/how-to-force-dark-mode-on-every-website-in-google-chrome-f52f550a3fd
 
 # youtube + mpv
