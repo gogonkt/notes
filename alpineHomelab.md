@@ -12,3 +12,13 @@ https://sureshjoshi.com/development/alpine-kvm-host
 
 https://sureshjoshi.com/development/alpine-kvm-config-script
 
+# Alpine notes
+
+https://github.com/gogonkt/notes/blob/main/alpine_install.md
+
+https://github.com/gogonkt/notes/blob/main/cagebreak_install.md
+
+https://github.com/gogonkt/notes/blob/main/diskless_usb_alpine_install.md
+
+
+
