@@ -6,6 +6,7 @@ setup-alpine
 ip addr
 
 apk -U upgrade
+apk add htop lsblk
 
 fdisk /dev/sdc
 modprobe vfat
