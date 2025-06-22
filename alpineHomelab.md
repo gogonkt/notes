@@ -1,5 +1,22 @@
 # Alpine Homelab setting up
 
+## diskless_usb_alpine_install
+```
+setup-alpine
+ip addr
+
+apk -U upgrade
+
+fdisk /dev/sdc
+modprobe vfat
+mkfs.vfat /dev/sdc1
+
+setup-bootable -v /media/cdrom/ /dev/sdc1
+reboot
+
+```
+
+
 https://woozle.org/blog/2023/12-22-alpine-linux-homelab/
 
   . https://git.woozle.org/neale/toolbox
