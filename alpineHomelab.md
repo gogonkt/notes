@@ -13,7 +13,7 @@ https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device
 ```
 apk add dosfstools util-linux cfdisk # for GPT
 
-wipefs --all /dev/sda
+wipefs --all /dev/sdc
 cfdisk /dev/sdc
 mkfs.vfat /dev/sdc1
 
