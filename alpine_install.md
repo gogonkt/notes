@@ -6,7 +6,7 @@ talpine_install.md
 3. ****** Lazy Desktop Setup/Fluxbox/Firefox
     ```
     setup-alpine
-    setup-xorg-base fluxbox font-terminus alacritty sudo chromium -i
+    setup-xorg-base openbox sakura sudo chromium -i
     addgroup mvll input
     addgroup mvll video
     addgroup mvll wheel
