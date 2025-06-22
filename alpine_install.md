@@ -176,6 +176,10 @@ chromium --proxy-server="http://192.168.1.201:8080"
 
 https://www.chromium.org/developers/design-documents/network-stack/socks-proxy/
 
+## dark theme 
+
+https://chromewebstore.google.com/detail/google-chrome-%E5%AE%8C%E6%95%B4%E7%9A%84%E9%BB%91%E8%89%B2%E4%B8%BB%E9%A1%8C/ojocmeabgojddapjkfbdbmpeoodhepgd
+
 ```
 Configuring a SOCKS proxy server in Chrome
 To configure chrome to proxy traffic through the SOCKS v5 proxy server myproxy:8080, launch chrome with these two command-line flags:
