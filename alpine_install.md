@@ -6,10 +6,10 @@ talpine_install.md
 3. ****** Lazy Desktop Setup/Fluxbox/Firefox
     ```
     setup-alpine
-    setup-xorg-base fluxbox sakura sudo chromium -i
+    setup-xorg-base fluxbox sakura firefox -i
     addgroup mvll input
     addgroup mvll video
-    addgroup mvll wheel
+    # addgroup mvll wheel
     
     # logout switch to user
     startx
