@@ -6,13 +6,18 @@ setup-alpine
 ip addr
 
 apk -U upgrade
+```
+in Cfdisk, For exFAT formatted drives using the GPT partitioning scheme, the correct partition type is Microsoft Basic Data Partition
+
+https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device
+```
 apk add dosfstools util-linux cfdisk # for GPT
 
+wipefs --all /dev/sda
 cfdisk /dev/sdc
-# modprobe vfat
 mkfs.vfat /dev/sdc1
 
-setup-bootable -v /media/cdrom/ /dev/sdc1
+setup-bootable -v /tmp/ISO /dev/sdc1
 reboot
 
 ```
