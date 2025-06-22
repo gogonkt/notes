@@ -21,7 +21,9 @@ setup-bootable -v /tmp/ISO /dev/sdc1
 reboot
 
 ```
+# Finishing
 
+https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device#Finishing_diskless_installation
 
 https://woozle.org/blog/2023/12-22-alpine-linux-homelab/
 
