@@ -6,7 +6,7 @@ talpine_install.md
 3. ****** Lazy Desktop Setup/Fluxbox/Firefox
     ```
     setup-alpine
-    setup-xorg-base openbox sakura sudo chromium -i
+    setup-xorg-base fluxbox sakura sudo chromium -i
     addgroup mvll input
     addgroup mvll video
     addgroup mvll wheel
@@ -14,7 +14,7 @@ talpine_install.md
     # logout switch to user
     startx
     # and then
-     fluxbox-generate_menu -t alacritty
+     fluxbox-generate_menu -t sakura
 
     apk add font-noto-cjk alsaconf alsa-utils xf86-input-synaptics thunar -i
     alsamixer
