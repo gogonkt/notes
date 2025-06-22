@@ -6,10 +6,10 @@ setup-alpine
 ip addr
 
 apk -U upgrade
-apk add dosfstools wipefs util-linux
+apk add dosfstools util-linux cfdisk # for GPT
 
-fdisk /dev/sdc
-modprobe vfat
+cfdisk /dev/sdc
+# modprobe vfat
 mkfs.vfat /dev/sdc1
 
 setup-bootable -v /media/cdrom/ /dev/sdc1
