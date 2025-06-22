@@ -1,4 +1,4 @@
-talpine_install.md
+alpine_install.md
 
 1. Download Alpine ISO
 2. Boot the ISO with Ventoy Flash drive.
