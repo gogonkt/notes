@@ -65,7 +65,25 @@ mount -av
 df -H
 ```
 
-  
+## Configuring Podman
+
+Ensure Podman is not running:
+```
+service podman stop
+```
+Edit /etc/containers/storage.conf, find the [storage] section, and modify the graphroot key to point to your persistent storage location:
+```
+graphroot = "/media/data/containers/podman"
+```
+Make sure that the graphroot directory exists:
+```
+mkdir -p /media/data/containers/podman
+```
+If you stopped Podman earlier, you can start it now:
+```
+service podman start
+```
+
 =============================
 
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
