@@ -46,8 +46,8 @@ rc-update add podman
  - Btrfs Filesystem /etc/fstab Entry To Mount It  https://www.cyberciti.biz/faq/linux-btrfs-fstab-entry-to-mount-filesystem-at-startup/
 ```
 apk add btrfs-progs
-
-btrfs filesystem show 
+modprobe btrfs
+echo btrfs >> /etc/modules
 
 mkfs.btrfs -f -L Data /dev/sda5 # -f for avoid ext4 file system exited
 lsblk -fl
