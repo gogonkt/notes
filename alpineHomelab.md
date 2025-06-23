@@ -61,6 +61,8 @@ lsblk -f /dev/sda5 # get UUID
 
 UUID=21a7d85f-fe01-43c9-a801-29f5c7ec268b /media/data           btrfs   defaults      0  0
 
+mount -av
+df -H
 ```
 
   
