@@ -1,13 +1,13 @@
 # Alpine Homelab setting up
 
-### diskless_usb_alpine_installu
+- diskless_usb_alpine_installu
 ```
 setup-alpine
 ip addr
 
 apk -U upgrade
 ```
-### use MBR dos and set boot flag
+- use MBR dos and set boot flag
 ```
 apk add dosfstools util-linux cfdisk # sdc1 no GPT, MBR and EXfat and bootable
 
@@ -19,7 +19,7 @@ setup-bootable -v /tmp/ISO /dev/sdc1
 reboot
 
 ```
-### Finishing
+- Finishing
 
 https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device#Finishing_diskless_installation
 
@@ -27,11 +27,11 @@ https://woozle.org/blog/2023/12-22-alpine-linux-homelab/
 
   . https://git.woozle.org/neale/toolbox
 
-### Podman
+# Podman
 
 https://0ink.net/posts/2025/2025-10-01-podman.html
 
- install Podman with the following command:
+- install Podman with the following command:
 ```
 apk add podman
 ```
@@ -67,23 +67,24 @@ df -H
 
 ## Configuring Podman
 
-Ensure Podman is not running:
+- Ensure Podman is not running:
 ```
 service podman stop
 ```
-Edit /etc/containers/storage.conf, find the [storage] section, and modify the graphroot key to point to your persistent storage location:
+- Edit /etc/containers/storage.conf, find the [storage] section, and modify the graphroot key to point to your persistent storage location:
 ```
 graphroot = "/media/data/containers/podman"
 ```
-Make sure that the graphroot directory exists:
+- Make sure that the graphroot directory exists:
 ```
 mkdir -p /media/data/containers/podman
 ```
-If you stopped Podman earlier, you can start it now:
+- If you stopped Podman earlier, you can start it now:
 ```
 service podman start
 ```
 
+Ref.
 =============================
 
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
