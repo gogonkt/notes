@@ -31,6 +31,14 @@ https://woozle.org/blog/2023/12-22-alpine-linux-homelab/
 
 https://0ink.net/posts/2025/2025-10-01-podman.html
 
+ install Podman with the following command:
+```
+apk add podman
+```
+To enable Podman at startup, use:
+```
+rc-update add podman
+```
 
 =============================
 
