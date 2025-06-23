@@ -43,6 +43,7 @@ rc-update add podman
 ### Mount data partition Btrfs
 
  - Btrfs https://wiki.alpinelinux.org/wiki/Btrfs
+ - Btrfs Filesystem /etc/fstab Entry To Mount It  https://www.cyberciti.biz/faq/linux-btrfs-fstab-entry-to-mount-filesystem-at-startup/
 ```
 apk add btrfs-progs
 
