@@ -138,6 +138,15 @@ https://github.com/gogonkt/notes/blob/main/cagebreak_install.md
 https://github.com/gogonkt/notes/blob/main/diskless_usb_alpine_install.md
 
 - Alpine Example /etc/fstab https://gist.github.com/voutilad/ece509d4f6a671132c0b3b5011de4e58
+- docker.io banded ! shit! setting socks5 proxy https://askubuntu.com/questions/610333/how-to-set-socks5-proxy-in-the-terminal
+```
+ssh -D 8080 name@myserver.com
+
+
+export http_proxy="socks5://127.0.0.1:8080"
+export https_proxy="socks5://127.0.0.1:8080"
+
+```
 
 - podman-build-from-dockerfile https://devtodevops.com/podman-build-from-dockerfile/
 
