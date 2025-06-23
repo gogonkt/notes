@@ -40,6 +40,17 @@ To enable Podman at startup, use:
 rc-update add podman
 ```
 
+### Mount data partition Btrfs
+
+ - Btrfs https://wiki.alpinelinux.org/wiki/Btrfs
+```
+apk add btrfs-progs
+
+mkfs.btrfs -f -L Data /dev/sda5
+
+```
+
+  
 =============================
 
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
