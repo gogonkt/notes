@@ -84,6 +84,39 @@ mkdir -p /media/data/containers/podman
 service podman start
 ```
 
+## Compatibility with Docker
+- install
+```
+apk add docker-cli-compose
+```
+For convenience, create a small script at /usr/local/bin/podman-compose:
+```
+#!/bin/sh
+# Set DOCKER_HOST pass -H to override
+export DOCKER_HOST=unix:///run/podman/podman.sock
+exec docker-compose "$@"
+```
+
+- Moving of --link'ed containers
+
+Old containers using Container Links can not be moved directly to Podman without changes. The Container Links feature is now obsolete and Docker supports it only for compatibility.
+
+In Podman you are better off creating a new network using:
+```
+podman create network NETWORK_NAME
+```
+Connect your containers to that network:
+```
+podman run -d \
+    -p 8080:80 \
+    --restart=always \
+    --network=NETWORK_NAME \
+    nginx:latest
+```
+Then you can use the container name using the DNS resolver. Note that the default Podman network has this internal DNS resolver disabled and you need to create a new one.
+
+If you are using docker compose a network is created by default and all the containers in the stack will be connected to it.
+
 Ref.
 =============================
 
