@@ -1,17 +1,15 @@
 # Alpine Homelab setting up
 
-## diskless_usb_alpine_install
+### diskless_usb_alpine_install
 ```
 setup-alpine
 ip addr
 
 apk -U upgrade
 ```
-in Cfdisk, For exFAT formatted drives using the GPT partitioning scheme, the correct partition type is Microsoft Basic Data Partition
-
-https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device
+### use MBR dos and set boot flag
 ```
-apk add dosfstools util-linux cfdisk # for GPT
+apk add dosfstools util-linux cfdisk # sdc1 no GPT, MBR and EXfat and bootable
 
 wipefs --all /dev/sdc
 cfdisk /dev/sdc
@@ -21,7 +19,7 @@ setup-bootable -v /tmp/ISO /dev/sdc1
 reboot
 
 ```
-# Finishing
+### Finishing
 
 https://wiki.alpinelinux.org/wiki/Create_a_Bootable_Device#Finishing_diskless_installation
 
@@ -29,7 +27,12 @@ https://woozle.org/blog/2023/12-22-alpine-linux-homelab/
 
   . https://git.woozle.org/neale/toolbox
 
+### Podman
 
+https://0ink.net/posts/2025/2025-10-01-podman.html
+
+
+=============================
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
 
 
