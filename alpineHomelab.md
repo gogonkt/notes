@@ -47,7 +47,13 @@ rc-update add podman
 ```
 apk add btrfs-progs
 
-mkfs.btrfs -f -L Data /dev/sda5
+btrfs filesystem show 
+
+mkfs.btrfs -f -L Data /dev/sda5 # -f for avoid ext4 file system exited
+lsblk -fl
+btrfs filesystem show  #verified
+mount /dev/sda5 /media/data
+
 
 ```
 
