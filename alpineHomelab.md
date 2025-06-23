@@ -139,5 +139,7 @@ https://github.com/gogonkt/notes/blob/main/diskless_usb_alpine_install.md
 
 - Alpine Example /etc/fstab https://gist.github.com/voutilad/ece509d4f6a671132c0b3b5011de4e58
 
+- podman-build-from-dockerfile https://devtodevops.com/podman-build-from-dockerfile/
+
 
 
