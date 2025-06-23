@@ -118,6 +118,12 @@ https://wejn.org/2022/04/alpinelinux-unattended-install/
 
 https://git.sr.ht/~bt/alpine-linux-setup  # sway aaa
 
+x220 alpine install
+===
+https://git.sr.ht/~bt/alpine-suck-installer
+
+Dual Booting OpenBSD and Alpine Linux on a X220 ThinkPad https://btxx.org/posts/x220-dual-boot/
+
 https://github.com/git-sgmoore/AlpineLinux-DailyDriverDesktop
 
 https://copyprogramming.com/howto/creating-custom-alpine-linux-iso-with-an-answer-file-built-in
