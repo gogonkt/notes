@@ -1,6 +1,6 @@
 # Alpine Homelab setting up
 
-### diskless_usb_alpine_install
+### diskless_usb_alpine_installu
 ```
 setup-alpine
 ip addr
@@ -33,12 +33,15 @@ https://0ink.net/posts/2025/2025-10-01-podman.html
 
 
 =============================
+
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
 
 
 https://sureshjoshi.com/development/alpine-kvm-host
 
 https://sureshjoshi.com/development/alpine-kvm-config-script
+
+Alpine Linux with custom partitions https://www.alextsang.net/articles/20200921-032859/index.html
 
 # Alpine notes
 
