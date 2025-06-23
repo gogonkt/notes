@@ -53,7 +53,13 @@ mkfs.btrfs -f -L Data /dev/sda5 # -f for avoid ext4 file system exited
 lsblk -fl
 btrfs filesystem show  #verified
 mount /dev/sda5 /media/data
+```
+- /etc/fstab
+```
+blkid /dev/sda5
+lsblk -f /dev/sda5 # get UUID
 
+UUID=21a7d85f-fe01-43c9-a801-29f5c7ec268b /media/data           btrfs   defaults      0  0
 
 ```
 
