@@ -187,3 +187,8 @@ mintjetos/metatrader:latest
 
 docker start mt4
 ```
+-- use:
+```
+docker start mt4
+docker stop mt4
+```
