@@ -182,7 +182,7 @@ mkdir -p /tmp/.Xauthority
 ```
 -- copy mt4 to mt4 volume
 ```
-mount -t ntfs /dev/mmcblk0p1 /media/sdcard
+mount -t ntfs-3g /dev/mmcblk0p1 /media/sdcard
 cp -r /media/sdcard/XM\ Global\ MT4.portable/* ./volumes/_data/mt4
 ls -lha ./volumes/_data/mt4/
 
