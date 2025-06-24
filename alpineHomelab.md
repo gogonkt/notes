@@ -163,6 +163,9 @@ optional:
 ```
 apk add xhost
 apk add iptables
+mkdir -p /media/data/containers/podman/volumes/_data/mt4
+mkdir -p /tmp/.Xauthority
+
 ```
 
 ```
