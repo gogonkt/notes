@@ -197,6 +197,8 @@ docker start mt4
 ```
 -- use:
 ```
+xhost +
+mkdir -p /tmp/.Xauthority
 docker start mt4
 docker stop mt4
 ```
