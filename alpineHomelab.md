@@ -1,6 +1,6 @@
 # Alpine Homelab setting up
 
-- diskless_usb_alpine_installu
+- diskless_usb_alpine_install
 ```
 setup-alpine
 ip addr
