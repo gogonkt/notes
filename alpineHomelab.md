@@ -155,3 +155,7 @@ export https_proxy="socks5://127.0.0.1:8080"
 - ==> but it's not as simple as Alpine Linux makes it. With Alpine, you just add the edge repository as a @edge alias in /etc/apk/repositories and then install package-name@edge @ Why Alpine Linux is my new favourite distro https://www.reddit.com/r/linux/comments/1g6t8wg/why_alpine_linux_is_my_new_favourite_distro/
 
 
+Dockers
+===
+- Windows inside a Docker container.  https://github.com/dockur/windows?tab=readme-ov-file
+- Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
