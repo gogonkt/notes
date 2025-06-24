@@ -150,6 +150,7 @@ export https_proxy="socks5://127.0.0.1:8080"
 - A Slim Home Server with Alpine Linux https://willhbr.net/2025/03/09/a-slim-home-server-with-alpine-linux/
 - Configure Rootless Podman Remote on Alpine Linux https://willhbr.net/2025/01/18/configure-rootless-podman-remote-on-alpine-linux/
 - podman-build-from-dockerfile https://devtodevops.com/podman-build-from-dockerfile/
-
+- alpine stable base + up-to-date packages model https://www.wezm.net/technical/2019/02/alpine-linux-docker-infrastructure/
+- ==> but it's not as simple as Alpine Linux makes it. With Alpine, you just add the edge repository as a @edge alias in /etc/apk/repositories and then install package-name@edge @ Why Alpine Linux is my new favourite distro https://www.reddit.com/r/linux/comments/1g6t8wg/why_alpine_linux_is_my_new_favourite_distro/
 
 
