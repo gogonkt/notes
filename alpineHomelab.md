@@ -158,6 +158,14 @@ export https_proxy="socks5://127.0.0.1:8080"
 modprobe ipv6
 echo "ipv6" >> ./etc/modules
 ```
+- If they were all inside your home directory, sane default permissions would be 755 for directories and 644 for files. This is a good job for find. https://www.reddit.com/r/linuxquestions/comments/11o8t5j/how_to_restore_sane_default_permissions_after/
+```
+# find all directories in [directory] and change permissions to 755
+find [directory] -type d -exec chmod 755 {} \;
+
+# find all files in [directory] and change permissions to 644
+find [directory] -type f -exec chmod 644 {} \;
+```
 
 Dockers
 ===
