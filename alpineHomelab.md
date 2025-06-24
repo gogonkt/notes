@@ -164,7 +164,7 @@ Dockers
 - Windows inside a Docker container.  https://github.com/dockur/windows?tab=readme-ov-file
 - Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
 
-optional:
+-- optional:
 ```
 apk add xhost
 apk add iptables
@@ -172,7 +172,14 @@ mkdir -p /media/data/containers/podman/volumes/_data/mt4
 mkdir -p /tmp/.Xauthority
 
 ```
+-- copy mt4 to mt4 volume
+```
+mount -t ntfs /dev/mmcblk0p1 /media/sdcard
+cp -r /media/sdcard/XM\ Global\ MT4.portable/* ./volumes/_data/mt4
+ls -lha ./volumes/_data/mt4/
 
+```
+-- fireup mt4 container
 ```
 podman run -d -it --name mt4 -e VERSION=mt4 -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /tmp/.Xauthority:/tmp/.Xauthority \
 -v /media/data/containers/podman/volumes/_data/mt4:'/home/mint/.mt4/drive_c/Program Files (x86)/MetaTrader 4' \
