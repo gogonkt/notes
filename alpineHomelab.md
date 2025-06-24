@@ -159,3 +159,11 @@ Dockers
 ===
 - Windows inside a Docker container.  https://github.com/dockur/windows?tab=readme-ov-file
 - Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
+
+```
+podman run -d -it --name mt4 -e VERSION=mt4 -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /tmp/.Xauthority:/tmp/.Xauthority \
+-v /media/data/containers/podman/volumes/_data/mt4:'/home/mint/.mt4/drive_c/Program Files (x86)/MetaTrader 4' \
+mintjetos/metatrader:latest
+
+docker start mt4
+```
