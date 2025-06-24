@@ -153,7 +153,11 @@ export https_proxy="socks5://127.0.0.1:8080"
 - podman-build-from-dockerfile https://devtodevops.com/podman-build-from-dockerfile/
 - alpine stable base + up-to-date packages model https://www.wezm.net/technical/2019/02/alpine-linux-docker-infrastructure/
 - ==> but it's not as simple as Alpine Linux makes it. With Alpine, you just add the edge repository as a @edge alias in /etc/apk/repositories and then install package-name@edge @ Why Alpine Linux is my new favourite distro https://www.reddit.com/r/linux/comments/1g6t8wg/why_alpine_linux_is_my_new_favourite_distro/
-
+- ipv6 https://gist.github.com/arvati/8f59e3b03458567424efa42174992705
+```
+modprobe ipv6
+echo "ipv6" >> ./etc/modules
+```
 
 Dockers
 ===
