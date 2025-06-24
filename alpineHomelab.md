@@ -147,7 +147,8 @@ export http_proxy="socks5://127.0.0.1:8080"
 export https_proxy="socks5://127.0.0.1:8080"
 
 ```
-
+- A Slim Home Server with Alpine Linux https://willhbr.net/2025/03/09/a-slim-home-server-with-alpine-linux/
+- Configure Rootless Podman Remote on Alpine Linux https://willhbr.net/2025/01/18/configure-rootless-podman-remote-on-alpine-linux/
 - podman-build-from-dockerfile https://devtodevops.com/podman-build-from-dockerfile/
 
 
