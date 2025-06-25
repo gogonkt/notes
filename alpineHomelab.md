@@ -203,3 +203,4 @@ mkdir -p /tmp/.Xauthority
 docker start mt4
 docker stop mt4
 ```
+- docker-wine https://github.com/scottyhardy/docker-wine
