@@ -20,11 +20,12 @@ USB MIDI Controller https://github.com/hugbed/midi-controller
 
 ---
 # FX
- FX.md https://gist.github.com/gogonkt/3a35d2636f42f2dbb2ddfc8d496eec58
+ - FX.md https://gist.github.com/gogonkt/3a35d2636f42f2dbb2ddfc8d496eec58
 
  https://github.com/gogonkt/notes/blob/main/pharley.fx.md
  
- 複製成功的交易模式(心理篇) https://gist.github.com/gogonkt/5c246aca0653445ac1ae
+ - 複製成功的交易模式(心理篇) https://gist.github.com/gogonkt/5c246aca0653445ac1ae
+ - Alerts on New Bar https://www.mql5.com/en/code/11065
  
 
 ---
