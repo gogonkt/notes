@@ -212,3 +212,4 @@ docker stop mt4
 - [The Moby Project](https://github.com/moby/moby)
 - [Assembly & Reverse Engineering](https://github.com/Catherine22/Assembly)
 - [Programming in assembly language tutorial](https://github.com/mschwartz/assembly-tutorial)
+- [The ASM Rosetta Stone](https://github.com/lowleveltv/rosetta-stone)
