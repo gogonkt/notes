@@ -204,3 +204,6 @@ docker start mt4
 docker stop mt4
 ```
 - docker-wine https://github.com/scottyhardy/docker-wine
+- Dockerized Arduino IDE https://github.com/tombenke/darduino
+- ==> Running GUI apps with Docker https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
+
