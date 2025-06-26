@@ -3,6 +3,13 @@
 # Forth
 Forth_Notes.md https://gist.github.com/gogonkt/a849fc0d97bf239591679fc6b47001cd
 
+# KIM-1 MOS 6502 Vintage Computer
+http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/
+
+http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-software/#forth
+
+https://vintagecomputer.ca/sbc-collection/
+
 ---
 # T12
 T12_Notes.md https://gist.github.com/gogonkt/d0dc96569f854f75ffa564727e9bfde9
