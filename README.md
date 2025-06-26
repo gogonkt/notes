@@ -4,11 +4,14 @@
 Forth_Notes.md https://gist.github.com/gogonkt/a849fc0d97bf239591679fc6b47001cd
 
 # KIM-1 MOS 6502 Vintage Computer
-http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/
+- http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/
 
-http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-software/#forth
+- http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-1-software/#forth
+
+- [KIM-1 replica’s and clones](http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/my-kim-1-family/kim-replicas-and-clones/)
 
 https://vintagecomputer.ca/sbc-collection/
+
 
 ---
 # T12
