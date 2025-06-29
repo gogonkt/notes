@@ -217,6 +217,6 @@ docker stop mt4
 
 # Alpine Linux as AP
 
-https://gist.github.com/XtendedGreg/5ef72d27c0dd1dbf1f2e2125092e7369
+- [Creating an Access Point on Raspberry Pi running Alpine Linux](https://gist.github.com/XtendedGreg/5ef72d27c0dd1dbf1f2e2125092e7369)
 
-
+- [Docker container stack: hostap + dhcp server](https://github.com/shugaoye/docker-rpi-ap)
