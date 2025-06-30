@@ -185,6 +185,7 @@ mkdir -p /tmp/.Xauthority
 mkdir -p /media/sdcard
 mount -t ntfs-3g /dev/mmcblk0p1 /media/sdcard
 cp -r /media/sdcard/XM\ Global\ MT4.portable/* ./volumes/_data/mt4
+chown -R mvll:mvll ./volumes/_data/mt4/*
 ls -lha ./volumes/_data/mt4/
 
 ```
