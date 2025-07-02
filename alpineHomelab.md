@@ -222,5 +222,6 @@ docker stop mt4
 
 # Android 
 - [budtmo/docker-android](https://github.com/budtmo/docker-android)
+- [Youtube: Run Android in a Docker Container!](https://www.youtube.com/watch?v=a1M40roHuRg&ab_channel=TechonFire)
 - [redroid (Remote anDroid)](https://github.com/remote-android/redroid-doc)
 
