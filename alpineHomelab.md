@@ -231,3 +231,5 @@ docker stop mt4
 # Kubernetes
 - [Alpine Linux 🌲 K8s in 10 Minutes](https://gist.github.com/gogonkt/1e5e62d0a852d85e1e31a8f3e9ca95c3)
 - [Deploy a HA Kubernetes Cluster on Alpine](https://medium.com/@alesson.viana/deploy-a-ha-kubernetes-cluster-on-alpine-6984d96b1743)
+- [How to Run a Virtual Machine (VM) on a Local Kubernetes Cluster](https://www.getambassador.io/blog/how-to-run-virtual-machine-vm-local-kubernetes-cluster-guide#prerequisites-setting-up-local-kubernetes-cluster)
+- 
