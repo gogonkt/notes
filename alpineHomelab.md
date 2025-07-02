@@ -239,4 +239,5 @@ docker stop mt4
 - [Installing Kubernetes Homelab Tools for Development and Deploying a Sample Application Using a Jenkins Pipeline](https://homelabdev.com/installing-kubernetes-homelab-tools-for-development-and-deploying-a-application-using-a-jenkins-pipeline/)
 - [Kubernetes CheatSheets In A4 ](https://github.com/dennyzhang/cheatsheet-kubernetes-A4)
 - [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
-- 
+
+- [Converting an Old MacBook Into an Always-On Personal Kubernetes Cluster](https://devopsdirective.com/posts/2020/03/always-on-minikube/)
