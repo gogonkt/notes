@@ -225,3 +225,9 @@ docker stop mt4
 - [Youtube: Run Android in a Docker Container!](https://www.youtube.com/watch?v=a1M40roHuRg&ab_channel=TechonFire)
 - [redroid (Remote anDroid)](https://github.com/remote-android/redroid-doc)
 
+
+---
+
+# Kubernetes
+- [Alpine Linux 🌲 K8s in 10 Minutes](https://gist.github.com/gogonkt/1e5e62d0a852d85e1e31a8f3e9ca95c3)
+- [Deploy a HA Kubernetes Cluster on Alpine](https://medium.com/@alesson.viana/deploy-a-ha-kubernetes-cluster-on-alpine-6984d96b1743)
