@@ -241,3 +241,7 @@ docker stop mt4
 - [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
 
 - [Converting an Old MacBook Into an Always-On Personal Kubernetes Cluster](https://devopsdirective.com/posts/2020/03/always-on-minikube/)
+- [3 years managing Kubernetes clusters, my 10 lessons.](https://hervekhg.medium.com/3-years-managing-kubernetes-clusters-my-10-lessons-b565a5509f0e)
+
+
+
