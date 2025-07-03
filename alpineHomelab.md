@@ -127,6 +127,8 @@ https://sureshjoshi.com/development/alpine-kvm-host
 
 https://sureshjoshi.com/development/alpine-kvm-config-script
 
+- [KVM Alpine wiki](https://wiki.alpinelinux.org/wiki/KVM)
+
 Alpine Linux with custom partitions https://www.alextsang.net/articles/20200921-032859/index.html
 
 # Alpine notes
