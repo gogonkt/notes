@@ -75,8 +75,13 @@ alpine_install.md
     ```
     apk add firefox font-noto-cjk
     ```
+- [How can I prevent Firefox profiles from becoming large and taking up space on the C drive for each user?](https://support.mozilla.org/en-US/questions/939338)
+- set the preference browser.cache.disk.enable to false, then no cache files will be written onto the disk (doesn't affect cached entries in RAM).
 
-    mscorefonts
+please also refer to http://kb.mozillazine.org/Locking_preferences 
+
+
+mscorefonts
     ```
     apk add msttcorefonts-installer
     update-ms-fonts
