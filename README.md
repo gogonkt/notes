@@ -27,6 +27,7 @@ Oscilloscope.md https://gist.github.com/gogonkt/f6690c14b5146e24129b030de03a76b0
 Wicki-Hayden note layout json https://gist.github.com/gogonkt/212ccdd708bfcc4213b2a3b3cf41827e
 
 USB MIDI Controller https://github.com/hugbed/midi-controller
+- [Moog Style Synth](https://www.instructables.com/Moog-Style-Synth/) [Youtube=>](https://www.youtube.com/watch?v=YYtZRjsq8O8&t=5s&ab_channel=MarcusDunn)
 
 ---
 # FX
