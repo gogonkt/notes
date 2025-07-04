@@ -256,5 +256,17 @@ docker stop mt4
 - [Converting an Old MacBook Into an Always-On Personal Kubernetes Cluster](https://devopsdirective.com/posts/2020/03/always-on-minikube/)
 - [3 years managing Kubernetes clusters, my 10 lessons.](https://hervekhg.medium.com/3-years-managing-kubernetes-clusters-my-10-lessons-b565a5509f0e)
 
+# SSH
+- [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
+  ```
+  one-line solution. Well, how about
+
+  ssh address-of-B 'wget -O - http://server-C/whatever' >> whatever
+
+  i.e. redirection the wget-fetched output to stdout, and redirecting the local output (from ssh running wget remotely) to a file.
+
+  This seems to work, the wget output is just a little confusing ("saved to -"), you can get rid of it by adding -q to the wget   call.
+  ```
+
 
 
