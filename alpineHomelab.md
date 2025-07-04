@@ -135,6 +135,7 @@ https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-co
 https://sureshjoshi.com/development/alpine-kvm-host
 
 https://sureshjoshi.com/development/alpine-kvm-config-script
+- ==> [alpine-kvm:Alpine-based KVM/QEMU host configuration and virt-install scripts](https://github.com/sureshjoshi/alpine-kvm)
 
 - [KVM Alpine wiki](https://wiki.alpinelinux.org/wiki/KVM)
 - [Use Alpine Linux as a Hypervisor (with KVM, QEMU and libvirt) on AMD64 and ARM64](https://lunar.computer/news/kvm-qemu-libvirt-alpine/)
