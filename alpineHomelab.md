@@ -117,6 +117,14 @@ Then you can use the container name using the DNS resolver. Note that the defaul
 
 If you are using docker compose a network is created by default and all the containers in the stack will be connected to it.
 
+## podman: enable cgroups v2 
+- https://gitlab.alpinelinux.org/alpine/aports/-/issues/16182
+
+That podman service depends on cgroups. Have you enabled/started the podman service?
+```
+rc-service podman start
+```
+
 Ref.
 =============================
 
