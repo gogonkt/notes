@@ -37,6 +37,7 @@ USB MIDI Controller https://github.com/hugbed/midi-controller
  
  - 複製成功的交易模式(心理篇) https://gist.github.com/gogonkt/5c246aca0653445ac1ae
  - Alerts on New Bar https://www.mql5.com/en/code/11065
+ - [Trades About to Happen ( PDFDrive ).pdf]https://forex-station.com/attach/file/3482227 Wyckoff-Method-Wyckoff-Analytics-English-V2.pdf
  
 
 ---
