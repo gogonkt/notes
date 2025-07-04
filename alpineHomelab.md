@@ -122,14 +122,16 @@ Ref.
 
 https://www.wildtechgarden.ca/doc/server-alpine-linux-docs4web/server-install-config/create-semi-data-install/create-semi-data-install/
 
+# KVM
 
 https://sureshjoshi.com/development/alpine-kvm-host
 
 https://sureshjoshi.com/development/alpine-kvm-config-script
 
 - [KVM Alpine wiki](https://wiki.alpinelinux.org/wiki/KVM)
+- [Use Alpine Linux as a Hypervisor (with KVM, QEMU and libvirt) on AMD64 and ARM64](https://lunar.computer/news/kvm-qemu-libvirt-alpine/)
 
-Alpine Linux with custom partitions https://www.alextsang.net/articles/20200921-032859/index.html
+- [Alpine Linux with custom partitions](https://www.alextsang.net/articles/20200921-032859/index.html)
 
 # Alpine notes
 
