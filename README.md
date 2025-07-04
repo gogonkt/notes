@@ -28,6 +28,7 @@ Wicki-Hayden note layout json https://gist.github.com/gogonkt/212ccdd708bfcc4213
 
 USB MIDI Controller https://github.com/hugbed/midi-controller
 - [Moog Style Synth](https://www.instructables.com/Moog-Style-Synth/) [Youtube=>](https://www.youtube.com/watch?v=YYtZRjsq8O8&t=5s&ab_channel=MarcusDunn)
+- [Hexaphon arpeggio, DIY analog poly synth](https://www.youtube.com/watch?v=bJpawKukLSo&ab_channel=ekkoflok) [Hexaphon](https://ekkoflok.dk/hex.php)
 
 ---
 # FX
