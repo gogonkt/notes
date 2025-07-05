@@ -220,7 +220,7 @@ docker stop mt4
 Launch the Firefox docker container with the following command:
 
 ```shell
-podman run -d --name=firefox -p 5800:5800 -v /media/data/containers/podman/volumes/_data/:/config:rw jlesage/firefox
+podman run --net host -e DISPLAY_WIDTH=1366 -e DISPLAY_HEIGHT=768 -d --name=firefox -p 5800:5800 -v /media/data/containers/podman/volumes/_data/:/config:rw jlesage/firefox
 ```
 - docker-wine https://github.com/scottyhardy/docker-wine
 - Dockerized Arduino IDE https://github.com/tombenke/darduino
