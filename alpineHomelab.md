@@ -222,6 +222,12 @@ Launch the Firefox docker container with the following command:
 ```shell
 podman run --net host -e DISPLAY_WIDTH=1366 -e DISPLAY_HEIGHT=768 -d --name=firefox -p 5800:5800 -v /media/data/containers/podman/volumes/_data/:/config:rw jlesage/firefox
 ```
+
+- [How do I get into a Docker container's shell?](https://stackoverflow.com/questions/30172605/how-do-i-get-into-a-docker-containers-shell)
+  ```
+  podman  exec -it <mycontainer> sh
+  ```
+  
 - docker-wine https://github.com/scottyhardy/docker-wine
 - Dockerized Arduino IDE https://github.com/tombenke/darduino
 - ==> [Running GUI apps with Docker](https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
