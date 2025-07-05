@@ -59,7 +59,7 @@ alpine_install.md
     ```
 #    firefox
     
-   - proxy: 192.168.1.201:8080
+   - proxy: localhost:8080
 
    - aaa [AdBlock for Firefox](https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/)
    - aaa [FoxyProxy Standard](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
