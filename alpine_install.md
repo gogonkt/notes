@@ -57,17 +57,20 @@ alpine_install.md
     fluxbox-generate_menu -t alacritty
     
     ```
-    firefox
+#    firefox
     
-    proxy: 192.168.1.201:8080
+   - proxy: 192.168.1.201:8080
 
-   max video https://addons.mozilla.org/en-US/firefox/addon/maximize-video/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+   - aaa [AdBlock for Firefox](https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/)
+   - aaa [FoxyProxy Standard](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
 
-    tab-session-manager https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+   - [max video](https://addons.mozilla.org/en-US/firefox/addon/maximize-video/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
-   Proxy SwitchyOmega https://addons.mozilla.org/en-US/firefox/addon/switchyomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+   - [tab-session-manager ](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
-   minimal-internet-experience https://addons.mozilla.org/en-US/firefox/addon/minimal-internet-experience/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+   - [Proxy SwitchyOmega ](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
+-    [minimal-internet-experience ](https://addons.mozilla.org/en-US/firefox/addon/minimal-internet-experience/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
    ```
    https://github.com/gogonkt/notes/raw/main/OmegaOptions.bak
