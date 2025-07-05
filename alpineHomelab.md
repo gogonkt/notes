@@ -156,7 +156,7 @@ https://github.com/gogonkt/notes/blob/main/diskless_usb_alpine_install.md
 ssh -D 8080 name@myserver.com
 
 
-export http_proxy="socks5://127.0.0.1:8080"
+export http_proxy="socks5://127.0.0.1:8080" #proxy
 export https_proxy="socks5://127.0.0.1:8080"
 
 ```
