@@ -283,4 +283,9 @@ podman run --net host -e DISPLAY_WIDTH=1366 -e DISPLAY_HEIGHT=768 -d --name=fire
   ```
 
 
+# [Backlight](https://wiki.archlinux.org/title/Backlight) 
+```
+echo 1500 > /sys/class/backlight/intel_backlight/brightness
+```
+
 
