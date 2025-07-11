@@ -289,4 +289,12 @@ podman run --net host -e DISPLAY_WIDTH=1366 -e DISPLAY_HEIGHT=768 -d --name=fire
 echo 1500 > /sys/class/backlight/intel_backlight/brightness
 ```
 
+# chown 
+- [I've mounted my secondary SSD and it wont let me make any files on it. ](https://www.reddit.com/r/archlinux/comments/ouhun6/ive_mounted_my_secondary_ssd_and_it_wont_let_me/)
+```
+# chown -R your_user /path/to/mount_point
+```
+
+
+
 
