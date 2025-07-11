@@ -183,7 +183,10 @@ find [directory] -type f -exec chmod 644 {} \;
 Dockers
 ===
 - [Windows inside a Docker container.](https://github.com/dockur/windows?tab=readme-ov-file)
-- [QEMU in a Docker container.](https://github.com/qemus/qemu) 
+- [QEMU in a Docker container.](https://github.com/qemus/qemu)
+```
+podman run -it --rm --name qemu -e "BOOT=/media/data/gary-os-v9.0-generic_64.qcow2:/boot.qcow2"  -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
+```
 - Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
 
 -- optional:
