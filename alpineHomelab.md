@@ -182,7 +182,8 @@ find [directory] -type f -exec chmod 644 {} \;
 
 Dockers
 ===
-- Windows inside a Docker container.  https://github.com/dockur/windows?tab=readme-ov-file
+- [Windows inside a Docker container.](https://github.com/dockur/windows?tab=readme-ov-file)
+- [QEMU in a Docker container.](https://github.com/qemus/qemu) 
 - Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
 
 -- optional:
