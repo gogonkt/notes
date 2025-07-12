@@ -195,8 +195,13 @@ modprobe tun
 export http_proxy="socks5://127.0.0.1:8080" #proxy
 export https_proxy="socks5://127.0.0.1:8080"
 ```
+- GaryOS Qemu
 ```
 podman run -it --rm --name qemu -v "/media/data/gary-os-v9.0-generic_64.qcow2:/boot.qcow2" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
+```
+- Alpine Linux Qemu
+```
+podman run -it --rm --name qemu -e "BOOT=alpine" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
 ```
 - Docker image for running MetaTrader 4 or MetaTrader 5 on Linux with X11 forwarding. https://hub.docker.com/r/mintjetos/metatrader
 
