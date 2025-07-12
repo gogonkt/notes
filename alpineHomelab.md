@@ -203,6 +203,17 @@ export https_proxy="socks5://127.0.0.1:8080"
 ```
 podman run -it --rm --name qemu -v "/media/data/gary-os-v9.0-generic_64.qcow2:/boot.qcow2" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
 ```
+- ==>Error
+```
+iptables v1.8.11 (legacy): can't initialize iptables table `nat': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+❯ ERROR: The 'ip_tables' kernel module is not loaded. Try this command: sudo modprobe ip_tables iptable_nat
+❯ Warning: podman detected, falling back to user-mode networking!
+❯ Notice: port mapping will not work without "USER_PORTS" now.
+❯ Warning: your configured RAM_SIZE of 4 GB is very close to the 4.7 GB of memory available, please consider a lower value.
+❯ Booting image using QEMU v10.0.0...
+
+```
 - Alpine Linux Qemu
 ```
 podman run -it --rm --name qemu -e "BOOT=alpine" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
