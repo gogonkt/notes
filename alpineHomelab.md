@@ -184,6 +184,13 @@ Dockers
 ===
 - [Windows inside a Docker container.](https://github.com/dockur/windows?tab=readme-ov-file)
 - [QEMU in a Docker container.](https://github.com/qemus/qemu)
+- install tun # --device=/dev/net/tun
+```
+apk add qemu-modules
+echo tun >> /etc/modules
+modprobe tun
+```
+- run QEMU
 ```
 podman run -it --rm --name qemu -e "BOOT=/media/data/gary-os-v9.0-generic_64.qcow2:/boot.qcow2" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "/media/data/containers/podman/volumes/_data/qemu/:/storage" --stop-timeout 120 qemux/qemu
 ```
