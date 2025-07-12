@@ -321,3 +321,4 @@ echo 1500 > /sys/class/backlight/intel_backlight/brightness
 
 # X220 X230
 - [ThinkPads#Keymap_Table](https://www.thinkwiki.org/wiki/Install_Classic_Keyboard_on_xx30_Series_ThinkPads#Keymap_Table) 
+- [Classic keyboard for Lenovo X230](https://majek.sh/en/classic-keyboard-for-lenovo-x230/)
