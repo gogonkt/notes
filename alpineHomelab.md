@@ -184,6 +184,10 @@ Dockers
 ===
 - [Windows inside a Docker container.](https://github.com/dockur/windows?tab=readme-ov-file)
 - [QEMU in a Docker container.](https://github.com/qemus/qemu)
+- [qemu-docker](https://github.com/joshkunz/qemu-docker)
+- [container-vm](https://github.com/wy-z/container-vm)
+
+- [How to launch qemu-kvm from inside a Docker container?](https://stackoverflow.com/questions/48422001/how-to-launch-qemu-kvm-from-inside-a-docker-container)
 - install tun # --device=/dev/net/tun
 ```
 apk add qemu-modules
