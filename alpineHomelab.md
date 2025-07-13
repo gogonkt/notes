@@ -188,6 +188,14 @@ Dockers
 - [container-vm](https://github.com/wy-z/container-vm)
 
 - [How to launch qemu-kvm from inside a Docker container?](https://stackoverflow.com/questions/48422001/how-to-launch-qemu-kvm-from-inside-a-docker-container)
+- [Qemu in alpine container](https://github.com/BBVA/kvm/issues/2)
+```
+podman run --rm -ti --name kvm --cap-add NET_ADMIN -v /media/data/gary-os-v9.0-generic_64.qcow2:/image/image.qcow2 -v /media/data/:/shares --device /dev/kvm:/dev/kvm alpine sh
+```
+```
+apk -U --no-cache add qemu-system-x86_64 qemu bridge-utils dnsmasq bash
+qemu-system-x86_64 -enable-kvm -cpu host -m 1024 -curses -drive file=/image/image.qcow2,format=qcow2,cache=none -usb -usbdevice tablet
+```
 - install tun # --device=/dev/net/tun
 ```
 apk add qemu-modules
