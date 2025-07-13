@@ -193,7 +193,7 @@ Dockers
 podman run --rm -ti --name kvm --cap-add NET_ADMIN -v /media/data/gary-os-v9.0-generic_64.qcow2:/image/image.qcow2 -v /media/data/:/shares --device /dev/kvm:/dev/kvm alpine sh
 ```
 ```
-apk -U --no-cache add qemu-system-x86_64 qemu bridge-utils dnsmasq bash
+apk -U --no-cache add qemu-system-x86_64 qemu bridge-utils dnsmasq bash && rm -rf /var/cache/apk/*
 qemu-system-x86_64 -enable-kvm -cpu host -m 1024 -curses -drive file=/image/image.qcow2,format=qcow2,cache=none -usb -usbdevice tablet
 ```
 - install tun # --device=/dev/net/tun
