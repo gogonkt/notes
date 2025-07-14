@@ -282,7 +282,11 @@ podman run --net host -e DISPLAY_WIDTH=1366 -e DISPLAY_HEIGHT=768 -d --name=fire
 - [Programming in assembly language tutorial](https://github.com/mschwartz/assembly-tutorial)
 - [The ASM Rosetta Stone](https://github.com/lowleveltv/rosetta-stone)
 
-
+# Docker X11
+- [Docker X11 Client Via SSH](https://dzone.com/articles/docker-x11-client-via-ssh)
+```
+podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" xeyes
+```
 # Alpine Linux as AP
 
 - [Creating an Access Point on Raspberry Pi running Alpine Linux](https://gist.github.com/XtendedGreg/5ef72d27c0dd1dbf1f2e2125092e7369)
