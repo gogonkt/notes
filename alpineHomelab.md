@@ -142,6 +142,10 @@ https://sureshjoshi.com/development/alpine-kvm-config-script
 
 - [Alpine Linux with custom partitions](https://www.alextsang.net/articles/20200921-032859/index.html)
 
+# VM & contianer
+- [RunCVM (Run Container VM) is an experimental open-source Docker container runtime, for launching standard container workloads - as well as Systemd, Docker, even OpenWrt - in VMs using 'docker run`](https://github.com/newsnowlabs/runcvm)
+- [Incus is a modern, secure and powerful system container and virtual machine manager.](https://github.com/lxc/incus)
+
 # Alpine notes
 
 https://github.com/gogonkt/notes/blob/main/alpine_install.md
@@ -179,6 +183,7 @@ find [directory] -type d -exec chmod 755 {} \;
 # find all files in [directory] and change permissions to 644
 find [directory] -type f -exec chmod 644 {} \;
 ```
+
 
 Dockers
 ===
