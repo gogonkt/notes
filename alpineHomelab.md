@@ -330,6 +330,7 @@ podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthor
 - [Getting KubeVirt and K0s to play nicely on Ubuntu 20.04 LTS](https://josebiro.medium.com/getting-kubevirt-and-k0s-to-play-nicely-on-ubuntu-20-04-lts-39c33f18a8b2)
 - [Seamless Kubernetes Virtualization: Deploy VMs and Containers with Open Source KubeVirt and k0s](https://www.youtube.com/watch?v=3Vgn37Zvg0E&ab_channel=Mirantis)
 - ==>[k0s-kubevirt Tech talk](https://github.com/kevng9/k0s_kubevirt_techtalk)
+- [Deploying k0s to alpine](https://blog.devdemand.co/deploying-k0s-alpine/)
 
 # SSH
 - [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
