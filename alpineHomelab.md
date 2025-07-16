@@ -328,6 +328,7 @@ podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthor
 - [3 years managing Kubernetes clusters, my 10 lessons.](https://hervekhg.medium.com/3-years-managing-kubernetes-clusters-my-10-lessons-b565a5509f0e)
 - [Moving my personal infrastructure to Kubernetes (single-node k3s)](https://stanislas.blog/2025/04/moving-to-k8s/)
 - [Getting KubeVirt and K0s to play nicely on Ubuntu 20.04 LTS](https://josebiro.medium.com/getting-kubevirt-and-k0s-to-play-nicely-on-ubuntu-20-04-lts-39c33f18a8b2)
+- [Seamless Kubernetes Virtualization: Deploy VMs and Containers with Open Source KubeVirt and k0s](https://www.youtube.com/watch?v=3Vgn37Zvg0E&ab_channel=Mirantis)
 
 # SSH
 - [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
