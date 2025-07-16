@@ -334,6 +334,11 @@ podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthor
 - [Deploying k3s on Alpine Linux for Home Automation ](https://stephentanner.com/k3s-on-alpine.html)
 
 - [Alpine and k3s – a lightweight kubernetes experience](https://draghici.net/2020/06/09/alpine-and-k3s-a-lightweight-kubernetes-experience/)
+- [Bringing Zero Trust and Observability to VMs in Kubernetes with KubeVirt and Cilium](https://isovalent.com/blog/post/kubevirt-cilium-vm-networking/)
+
+# virtual desktop on Kubernetes
+- [How to setup a virtual desktop on Kubernetes in 15 minutes](https://medium.com/devops-dudes/how-to-setup-a-virtual-desktop-on-kubernetes-in-15-minutes-b2d7f213e3e3)
+- 
 
 # SSH
 - [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
