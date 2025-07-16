@@ -331,6 +331,7 @@ podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthor
 - [Seamless Kubernetes Virtualization: Deploy VMs and Containers with Open Source KubeVirt and k0s](https://www.youtube.com/watch?v=3Vgn37Zvg0E&ab_channel=Mirantis)
 - ==>[k0s-kubevirt Tech talk](https://github.com/kevng9/k0s_kubevirt_techtalk)
 - [Deploying k0s to alpine](https://blog.devdemand.co/deploying-k0s-alpine/)
+- [Deploying k3s on Alpine Linux for Home Automation ](https://stephentanner.com/k3s-on-alpine.html)
 
 # SSH
 - [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
