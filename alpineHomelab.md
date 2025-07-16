@@ -333,6 +333,8 @@ podman run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthor
 - [Deploying k0s to alpine](https://blog.devdemand.co/deploying-k0s-alpine/)
 - [Deploying k3s on Alpine Linux for Home Automation ](https://stephentanner.com/k3s-on-alpine.html)
 
+- [Alpine and k3s – a lightweight kubernetes experience](https://draghici.net/2020/06/09/alpine-and-k3s-a-lightweight-kubernetes-experience/)
+
 # SSH
 - [How to download a file through an SSH server?](https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server)
   ```
