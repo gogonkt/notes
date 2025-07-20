@@ -7,3 +7,4 @@ Armbian_notes.md
 - [How to Install a Docker-Driven Home Server on Ubuntu With CasaOS](https://builtin.com/articles/docker-casaos)
 - [Using Docker on CasaOS](https://mtmt.tech/en/docs/example/casa/)
 - [Configuring Portainer in CasaOS](https://opennix.org/en/blog/casaos-portainer-docker/)
+- [Thought on Portainer](https://www.reddit.com/r/docker/comments/12nqcec/thought_on_portainer/) 
