@@ -6,3 +6,4 @@ Armbian_notes.md
 - [使用 Docker 快速搭建 Telegram 專用代理 MTProxy-Go](https://www.jkg.tw/p3526/)
 - [How to Install a Docker-Driven Home Server on Ubuntu With CasaOS](https://builtin.com/articles/docker-casaos)
 - [Using Docker on CasaOS](https://mtmt.tech/en/docs/example/casa/)
+- [Configuring Portainer in CasaOS](https://opennix.org/en/blog/casaos-portainer-docker/)
