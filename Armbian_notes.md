@@ -9,3 +9,6 @@ Armbian_notes.md
 - [Configuring Portainer in CasaOS](https://opennix.org/en/blog/casaos-portainer-docker/)
 - [Thought on Portainer](https://www.reddit.com/r/docker/comments/12nqcec/thought_on_portainer/)
 - [Portainer Templates](https://github.com/Lissy93/portainer-templates)
+
+# GitOps-driven homelab
+- [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
