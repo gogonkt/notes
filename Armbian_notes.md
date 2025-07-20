@@ -10,6 +10,7 @@ Armbian_notes.md
 - [Thought on Portainer](https://www.reddit.com/r/docker/comments/12nqcec/thought_on_portainer/)
 - [Portainer Templates](https://github.com/Lissy93/portainer-templates)
 - [List of awesome VMware alternatives](https://github.com/alexgoesgit/awesome-vmware)
+- [Install Proxmox and a Ubuntu VM with Portainer to manage docker containers](https://gist.github.com/Drauku/557bfd0d6e2089eeceec4b4934210f0f)
 
 # GitOps-driven homelab
 - [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
