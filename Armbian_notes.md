@@ -26,3 +26,6 @@ Armbian_notes.md
 - ==> Actions >> for Docker >> workflow >> find "images"
 -  hsanaeii/3x-ui
 -  ghcr.io/mhsanaei/3x-ui
+
+- [Sing-box 全家桶 --- 一键多协议脚本](https://github.com/fscarmen/sing-box)
+- [7.Docker 和 Docker compose 安装](https://github.com/fscarmen/sing-box/blob/main/README.md#7docker-%E5%92%8C-docker-compose-%E5%AE%89%E8%A3%85)
