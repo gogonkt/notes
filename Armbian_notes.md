@@ -29,3 +29,4 @@ Armbian_notes.md
 
 - [Sing-box 全家桶 --- 一键多协议脚本](https://github.com/fscarmen/sing-box)
 - [7.Docker 和 Docker compose 安装](https://github.com/fscarmen/sing-box/blob/main/README.md#7docker-%E5%92%8C-docker-compose-%E5%AE%89%E8%A3%85)
+- ==> [(上)新代理神器 AnyTLS！搭配 Sing-box 一键脚本](https://www.youtube.com/watch?v=5-RZ4imFMHI&ab_channel=fscarmen)
