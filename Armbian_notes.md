@@ -19,3 +19,6 @@ Armbian_notes.md
 # GitOps-driven homelab
 - [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
 - ==> [Over-Engineered GitOps Homelab](https://github.com/theepicsaxguy/homelab)
+
+# Wall
+- [Docker容器轻松实现上网](https://youtu.be/XBsO6--Wy7A)
