@@ -1,5 +1,6 @@
 # Mobile Proxmox Workstation
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
+- [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
 - [Proxmox on laptop?](https://www.reddit.com/r/Proxmox/comments/1azloiw/proxmox_on_laptop/)
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
