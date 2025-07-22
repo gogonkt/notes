@@ -2,7 +2,11 @@
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 - [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
 - [Mobile Lab – Proxmox Workstation](https://soogs.xyz/2025/06/14/mobile-lab-proxmox-workstation/)
+- [HomeLab on a Slab - Mobile all-in-one ProxMox Homelab](https://www.youtube.com/watch?v=RD7hV0A2NOc&ab_channel=H2DC-HowtodoComputers)
+- ==> https://pastebin.com/Qx8gFte3
 - [Proxmox on laptop?](https://www.reddit.com/r/Proxmox/comments/1azloiw/proxmox_on_laptop/)
+
+
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 
