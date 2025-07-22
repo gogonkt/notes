@@ -9,3 +9,4 @@
 
 # Ventoy
 - [How to use Ventoy to boot Linux install?](https://www.ventoy.net/en/plugin_grubmenu.html)
+- [輕鬆製作多重開機隨身碟：Ventoy v1.0.98 最新版使用指南](https://izaka.tw/ventoy-bootable-usb-solution-user-guide/)
