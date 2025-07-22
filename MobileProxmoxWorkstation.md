@@ -6,3 +6,6 @@
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
+
+# Ventoy
+- [How to use Ventoy to boot Linux install?](https://www.ventoy.net/en/plugin_grubmenu.html)
