@@ -7,8 +7,12 @@
 - [Proxmox on laptop?](https://www.reddit.com/r/Proxmox/comments/1azloiw/proxmox_on_laptop/)
 
 
+
+
+
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
+- [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
