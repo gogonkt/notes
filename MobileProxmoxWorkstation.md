@@ -10,7 +10,7 @@
 
 
 
-
+---
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 - [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
 - [Mobile Lab – Proxmox Workstation](https://soogs.xyz/2025/06/14/mobile-lab-proxmox-workstation/)
