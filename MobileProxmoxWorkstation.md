@@ -3,11 +3,15 @@
 # Setup
 1. wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
+- Install Necessary Packages
 
+First, update the package list and install essential networking tools:
 ```
 apt update
 apt install wpasupplicant wireless-tools
 ```
+- Configure the Network Interface
+Edit the /etc/network/interfaces file to add WiFi configuration:
 ```
 vi /etc/network/interfaces
 ```
@@ -41,6 +45,12 @@ iface vmbr1 inet static
         post-up echo 1 > /proc/sys/net/ipv4/ip_forward
         post-up iptables -t nat -A POSTROUTING -s '10.0.1.1/24' -o wlp1s0 -j MASQUERADE
         post-down iptables -t nat -D POSTROUTING -s '10.0.1.1/24' -o wlp1s0 -j MASQUERADE
+```
+- Restart Networking Service
+
+Apply the changes by restarting the networking service:
+```
+systemctl restart networking
 ```
 
 2. Install xfce & chromium & lightdm
