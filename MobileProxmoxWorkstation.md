@@ -27,6 +27,7 @@ Ref.
 - [Here's what I do after installing Proxmox on a home server](https://www.xda-developers.com/changes-i-always-make-to-proxmox-in-my-home-lab/)
 - [First Steps After Installing Proxmox 8: A Comprehensive Guide](https://theramblingtech.com/setup-proxmox8/)
 - [First Things on new install](https://www.reddit.com/r/Proxmox/comments/1f01tfg/first_things_on_new_install/)
+- [Where can I find more Templates?](https://www.reddit.com/r/Proxmox/comments/16pfiw8/where_can_i_find_more_templates/)
 
 2. wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
