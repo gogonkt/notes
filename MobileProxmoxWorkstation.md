@@ -1,7 +1,29 @@
 # Mobile Proxmox Workstation
 
 # Setup
-1. wifi setup
+
+1. Configuring Proxmox after installation
+- [Configuring Proxmox after installation](https://introserv.com/tutorials/configuring-proxmox-after-installation/)
+- Update the system to the latest version
+- Edit the apt configuration file:
+  ```
+  vi /etc/apt/sources.list.d/pve-enterprise.list
+  ```
+- Write a "#" symbol in front of it to disable the option of receiving updates from a paid repository
+- Connect the no-subscription repository
+  ```
+  vi /etc/apt/sources.list
+  ```
+  ```
+  deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+  ```
+- Run the command to update package lists and upgrade the system:
+  ```
+  apt update && apt upgrade -y
+  ```
+- Restart
+
+2. wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
 - Install Necessary Packages
 
@@ -53,7 +75,7 @@ Apply the changes by restarting the networking service:
 systemctl restart networking
 ```
 
-2. Install xfce & chromium & lightdm
+3. Install xfce & chromium & lightdm
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 ```
 apt update
