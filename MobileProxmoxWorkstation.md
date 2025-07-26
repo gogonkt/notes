@@ -5,6 +5,14 @@
 - [HomeLab on a Slab - Mobile all-in-one ProxMox Homelab](https://www.youtube.com/watch?v=RD7hV0A2NOc&ab_channel=H2DC-HowtodoComputers)
 - ==> https://pastebin.com/Qx8gFte3
 - [Proxmox on laptop?](https://www.reddit.com/r/Proxmox/comments/1azloiw/proxmox_on_laptop/)
+- 
+
+
+# Backlight
+- backlight
+```
+echo 8 > /sys/class/backlight/acpi_video0/brightness
+```
 
 
 
