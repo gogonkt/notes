@@ -55,9 +55,10 @@ systemctl restart networking
 
 2. Install xfce & chromium & lightdm
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
-
-
-
+```
+apt update
+apt-get install xfce4 chromium lightdm fonts-noto-cjk
+```
 
 
 ---
