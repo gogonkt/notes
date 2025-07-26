@@ -1,4 +1,16 @@
 # Mobile Proxmox Workstation
+
+# Setup
+1. wifi setup
+- [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
+2. Install xfce & chromium & lightdm
+- [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
+
+
+
+
+
+
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 - [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
 - [Mobile Lab – Proxmox Workstation](https://soogs.xyz/2025/06/14/mobile-lab-proxmox-workstation/)
