@@ -191,6 +191,8 @@ chromium --proxy-server="http://192.168.1.201:8080"
 
 https://www.chromium.org/developers/design-documents/network-stack/socks-proxy/
 
+- [Proxy SwitchyOmega (V3)](https://chromewebstore.google.com/detail/proxy-switchyomega-v3/hihblcmlaaademjlakdpicchbjnnnkbo)
+
 ## dark theme 
 
 https://chromewebstore.google.com/detail/google-chrome-%E5%AE%8C%E6%95%B4%E7%9A%84%E9%BB%91%E8%89%B2%E4%B8%BB%E9%A1%8C/ojocmeabgojddapjkfbdbmpeoodhepgd
