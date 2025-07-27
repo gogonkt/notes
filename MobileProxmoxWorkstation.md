@@ -114,8 +114,10 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # LXC
 - [How to Create Containers in Proxmox](https://www.tecmint.com/proxmox-create-container/)
 
+# Podman or Docker
+- [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 
-
+# Proxmox
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
