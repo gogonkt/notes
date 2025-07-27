@@ -25,7 +25,6 @@
 - Restart
 
 ## Ref.
-===
 - [Here's what I do after installing Proxmox on a home server](https://www.xda-developers.com/changes-i-always-make-to-proxmox-in-my-home-lab/)
 - [First Steps After Installing Proxmox 8: A Comprehensive Guide](https://theramblingtech.com/setup-proxmox8/)
 - [First Things on new install](https://www.reddit.com/r/Proxmox/comments/1f01tfg/first_things_on_new_install/)
@@ -96,7 +95,6 @@ apt-get install xfce4 chromium lightdm fonts-noto-cjk
 ```
 
 ## Ref.
----
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 - [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
 - [Mobile Lab – Proxmox Workstation](https://soogs.xyz/2025/06/14/mobile-lab-proxmox-workstation/)
