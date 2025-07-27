@@ -115,6 +115,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
+- [How to Run GUI Apps inside LXC containers](https://paula-rusti.hashnode.dev/how-to-run-gui-apps-inside-lxc-containers)
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
