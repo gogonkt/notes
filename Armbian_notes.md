@@ -13,12 +13,6 @@ Armbian_notes.md
 - [Install Proxmox and a Ubuntu VM with Portainer to manage docker containers](https://gist.github.com/Drauku/557bfd0d6e2089eeceec4b4934210f0f)
 
 
-# Talos
-- [How I Setup Talos Linux](https://medium.com/@pedrotychang/how-i-setup-talos-linux-bc2832ec87cc)
-
-# GitOps-driven homelab
-- [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
-- ==> [Over-Engineered GitOps Homelab](https://github.com/theepicsaxguy/homelab)
 
 # Wall
 - [Docker容器轻松实现上网](https://youtu.be/XBsO6--Wy7A)
