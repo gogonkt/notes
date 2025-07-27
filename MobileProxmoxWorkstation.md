@@ -1,6 +1,6 @@
 # Mobile Proxmox Workstation
 
-# Setup
+# Setup ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
 1. Configuring Proxmox after installation
 - [Configuring Proxmox after installation](https://introserv.com/tutorials/configuring-proxmox-after-installation/)
