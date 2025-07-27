@@ -141,7 +141,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [SX_linux_PE安装器2025-02-04](https://www.cnblogs.com/liuzhaoyzz/p/18667751)
 - [Ventoy引导启动PVE--教你如何封装自己的PVE虚拟机](https://yangwenqing.com/archives/2065/)
 
-
+# Read SD card plugged into host from VM
+- You have to pass it through as a USB device. Somewhat along those lines:
+- https://pve.proxmox.com/wiki/USB_Devices_in_Virtual_Machines#Alternate_way:_pass_the_USB_port_to_the_guest
 
 # tethering iPhone
 - [How to get unlimited 5G tethering with an unjailbroken iPhone](https://dogparty.medium.com/how-to-get-unlimited-5g-tethering-with-an-unjailbroken-iphone-ceff3a1f3642)
