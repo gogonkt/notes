@@ -87,14 +87,14 @@ Apply the changes by restarting the networking service:
 systemctl restart networking
 ```
 
-3. Install xfce & chromium & lightdm
+3. Install xfce & chromium & lightdm & fonts
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 ```
 apt update
 apt-get install xfce4 chromium lightdm fonts-noto-cjk
 ```
 
-
+Ref.
 ---
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 - [proxmox.com/wiki/WLAN](https://pve.proxmox.com/wiki/WLAN)
@@ -124,6 +124,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
 
+# Chromium
+- [Launch Chromium in kiosk mode](https://sylvaindurand.org/launch-chromium-in-kiosk-mode/)
+- 
 # Ventoy
 - [How to use Ventoy to boot Linux install?](https://www.ventoy.net/en/plugin_grubmenu.html)
 - [輕鬆製作多重開機隨身碟：Ventoy v1.0.98 最新版使用指南](https://izaka.tw/ventoy-bootable-usb-solution-user-guide/)
