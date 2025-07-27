@@ -144,6 +144,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # Read SD card plugged into host from VM
 - You have to pass it through as a USB device. Somewhat along those lines:
 - https://pve.proxmox.com/wiki/USB_Devices_in_Virtual_Machines#Alternate_way:_pass_the_USB_port_to_the_guest
+- https://forum.proxmox.com/threads/sd-card-not-showing-up.146180/
+- In Datacenter / Storage, Add / Directory -- if you already have it mounted on the host
 
 # tethering iPhone
 - [How to get unlimited 5G tethering with an unjailbroken iPhone](https://dogparty.medium.com/how-to-get-unlimited-5g-tethering-with-an-unjailbroken-iphone-ceff3a1f3642)
