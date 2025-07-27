@@ -141,6 +141,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [SX_linux_PE安装器2025-02-04](https://www.cnblogs.com/liuzhaoyzz/p/18667751)
 - [Ventoy引导启动PVE--教你如何封装自己的PVE虚拟机](https://yangwenqing.com/archives/2065/)
 
+# Easy Way to Share a Folder Across Multiple LXC Containers in Proxmox
+- [Easy Way to Share a Folder Across Multiple LXC Containers in Proxmox](https://medium.com/@PlanB./easy-way-to-share-a-folder-across-multiple-lxc-containers-in-proxmox-9220cc0d8934)
+
 # Read SD card plugged into host from VM
 - You have to pass it through as a USB device. Somewhat along those lines:
 - https://pve.proxmox.com/wiki/USB_Devices_in_Virtual_Machines#Alternate_way:_pass_the_USB_port_to_the_guest
