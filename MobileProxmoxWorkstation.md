@@ -106,7 +106,8 @@ apt-get install xfce4 chromium lightdm fonts-noto-cjk
 echo 8 > /sys/class/backlight/acpi_video0/brightness
 ```
 
-
+# LXC
+- [How to Create Containers in Proxmox](https://www.tecmint.com/proxmox-create-container/)
 
 
 
