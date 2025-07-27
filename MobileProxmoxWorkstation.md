@@ -29,6 +29,7 @@ Ref.
 - [First Things on new install](https://www.reddit.com/r/Proxmox/comments/1f01tfg/first_things_on_new_install/)
 - [Where can I find more Templates?](https://www.reddit.com/r/Proxmox/comments/16pfiw8/where_can_i_find_more_templates/)
 - https://helper-scripts.com/
+- [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install)
 
 2. wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
