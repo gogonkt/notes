@@ -101,7 +101,7 @@ apt-get install xfce4 chromium lightdm fonts-noto-cjk
 - [HomeLab on a Slab - Mobile all-in-one ProxMox Homelab](https://www.youtube.com/watch?v=RD7hV0A2NOc&ab_channel=H2DC-HowtodoComputers)
 - ==> https://pastebin.com/Qx8gFte3
 - [Proxmox on laptop?](https://www.reddit.com/r/Proxmox/comments/1azloiw/proxmox_on_laptop/)
-- 
+- [Proxmox over WIFI (WLAN)](https://pve.proxmox.com/wiki/Network_Configuration#sysadmin_network_masquerading)
 
 
 # Backlight
