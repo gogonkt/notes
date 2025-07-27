@@ -130,6 +130,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # GitOps-driven homelab
 - [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
 - ==> [Over-Engineered GitOps Homelab](https://github.com/theepicsaxguy/homelab)
+- [Kubernetes As a Service (KAAS) in Proxmox](https://github.com/kubebn/talos-proxmox-kaas)
 
 # Chromium
 - [Launch Chromium in kiosk mode](https://sylvaindurand.org/launch-chromium-in-kiosk-mode/)
