@@ -3,7 +3,7 @@
 # Setup 
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
-1. Configuring Proxmox after installation
+1. ## Configuring Proxmox after installation
 - [Configuring Proxmox after installation](https://introserv.com/tutorials/configuring-proxmox-after-installation/)
 - Update the system to the latest version
 - Edit the apt configuration file:
@@ -35,7 +35,7 @@
 - Youtube [Proxmox Automation with Proxmox Helper Scripts!](https://www.youtube.com/watch?v=kcpu4z5eSEU)
 - [Proxmox Helper Scripts: A Technical Guide](https://www.horizoniq.com/blog/proxmox-helper-scripts/)
 
-2. wifi setup
+2. ## wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
 - Install Necessary Packages
 
@@ -87,7 +87,7 @@ Apply the changes by restarting the networking service:
 systemctl restart networking
 ```
 
-3. Install xfce & chromium & lightdm & fonts
+3. ## Install xfce & chromium & lightdm & fonts
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 ```
 apt update
