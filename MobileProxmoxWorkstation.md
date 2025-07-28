@@ -37,6 +37,7 @@
 
 2. ## wifi setup
 - [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
+- [Guide: How to configure Proxmox with WiFi](https://blog.vivekkaushik.com/guide-how-to-configure-proxmox-with-wifi)
 - Install Necessary Packages
 
 First, update the package list and install essential networking tools:
