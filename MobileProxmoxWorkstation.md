@@ -119,6 +119,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # docker container X forwarding
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
+- [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
 
 # Proxmox
 - [Exploring Proxmox as a Total Beginner: Seeking Guidance and Tips](https://www.reddit.com/r/Proxmox/comments/171g9l7/exploring_proxmox_as_a_total_beginner_seeking/)
