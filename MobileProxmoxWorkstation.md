@@ -117,6 +117,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # Podman or Docker
 - [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 
+# docker container X forwarding
+- [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
+
 # Proxmox
 - [Exploring Proxmox as a Total Beginner: Seeking Guidance and Tips](https://www.reddit.com/r/Proxmox/comments/171g9l7/exploring_proxmox_as_a_total_beginner_seeking/)
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
