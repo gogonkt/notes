@@ -127,6 +127,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # Proxmox
 - [Exploring Proxmox as a Total Beginner: Seeking Guidance and Tips](https://www.reddit.com/r/Proxmox/comments/171g9l7/exploring_proxmox_as_a_total_beginner_seeking/)
+- [Beginners guide for Proxmox based homelab setup on an old consumer hardware like desktop pc/laptop. ](https://www.reddit.com/r/Proxmox/comments/154k57h/beginners_guide_for_proxmox_based_homelab_setup/)
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
