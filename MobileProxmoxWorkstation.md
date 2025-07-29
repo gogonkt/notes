@@ -141,10 +141,11 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [How I Setup Talos Linux](https://medium.com/@pedrotychang/how-i-setup-talos-linux-bc2832ec87cc)
 
 # GitOps-driven homelab
-- [My take on a fully GitOps-driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
+- [My take on a fully -driven homelab.](https://www.reddit.com/r/kubernetes/comments/1lcdefa/my_take_on_a_fully_gitopsdriven_homelab_looking/)
 - ==> [Over-Engineered GitOps Homelab](https://github.com/theepicsaxguy/homelab)
 - [Kubernetes As a Service (KAAS) in Proxmox](https://github.com/kubebn/talos-proxmox-kaas)
-
+- [Proxmox-GitOps: Self-configuring and ‚Everything as Code‘ Container Management
+](https://www.reddit.com/r/selfhosted/comments/1lxxxcs/proxmoxgitops_selfconfiguring_and_everything_as/)
 # Chromium
 - [Launch Chromium in kiosk mode](https://sylvaindurand.org/launch-chromium-in-kiosk-mode/)
 - 
