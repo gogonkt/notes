@@ -43,7 +43,7 @@ rc-update add podman
 ### Mount data partition Btrfs
 
  - Btrfs https://wiki.alpinelinux.org/wiki/Btrfs
- - Btrfs Filesystem /etc/fstab Entry To Mount It  https://www.cyberciti.biz/faq/linux-btrfs-fstab-entry-to-mount-filesystem-at-startup/
+ - Btrfs Filesystem /etc/fstab Entry To Mount It  https://www.cyberciti.biz/faq/linux-btrfs--entry-to-mount-filesystem-at-startup/
 ```
 apk add btrfs-progs
 modprobe btrfs
@@ -64,6 +64,15 @@ UUID=21a7d85f-fe01-43c9-a801-29f5c7ec268b /media/data           btrfs   defaults
 mount -av
 df -H
 ```
+- Fstab backup
+```
+~ $ cat /etc/fstab 
+/dev/cdrom	/media/cdrom	iso9660	noauto,ro 0 0
+/dev/usbdisk	/media/usb	vfat	noauto,ro 0 0
+UUID=6E11-308C	/media/sdb1	vfat	noauto,rw 0 0
+UUID=21a7d85f-fe01-43c9-a801-29f5c7ec268b /media/data           btrfs   defaults      0  0
+```
+
 
 ## Configuring Podman
 
