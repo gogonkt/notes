@@ -147,6 +147,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Proxmox-GitOps: Self-configuring and ‚Everything as Code‘ Container Management
 ](https://www.reddit.com/r/selfhosted/comments/1lxxxcs/proxmoxgitops_selfconfiguring_and_everything_as/)
 - [Proxmox-GitOps: Self-configuring GitOps Environment for Container Automation in Proxmox VE. ](https://dev.to/stevius10/proxmox-gitops-self-configuring-gitops-environment-for-container-automation-in-proxmox-ve-2lke)
+- [Infrastructure Automation: Provisioning VMs on Proxmox with Packer, OpenTOFU, GitLab, Vault, and Minio.](https://medium.com/@avishkumar27/infrastructure-automation-provisioning-vms-on-proxmox-with-packer-opentofu-gitlab-vault-and-27fda7d73771)
+
+
 # Chromium
 - [Launch Chromium in kiosk mode](https://sylvaindurand.org/launch-chromium-in-kiosk-mode/)
 - 
