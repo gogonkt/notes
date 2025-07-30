@@ -148,7 +148,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 ](https://www.reddit.com/r/selfhosted/comments/1lxxxcs/proxmoxgitops_selfconfiguring_and_everything_as/)
 - [Proxmox-GitOps: Self-configuring GitOps Environment for Container Automation in Proxmox VE. ](https://dev.to/stevius10/proxmox-gitops-self-configuring-gitops-environment-for-container-automation-in-proxmox-ve-2lke)
 - [Infrastructure Automation: Provisioning VMs on Proxmox with Packer, OpenTOFU, GitLab, Vault, and Minio.](https://medium.com/@avishkumar27/infrastructure-automation-provisioning-vms-on-proxmox-with-packer-opentofu-gitlab-vault-and-27fda7d73771)
-- [You do not need [tool] for simple gitops (most times)](https://eskerda.com/you-do-not-need-tool-for-simple-gitops-most-times/)
+- [You do not need \[tool\] for simple gitops (most times)](https://eskerda.com/you-do-not-need-tool-for-simple-gitops-most-times/)
+- [Minimal GitOps-like Deployment Tool](https://usher.dev/posts/2025-02-17-minimal-cluster-deployment-tool/)
 
 
 # Chromium
