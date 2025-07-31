@@ -153,6 +153,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
+- [Moving Proxmox ZFS boot drive to a new disk](https://lucatnt.com/tag/proxmox/)
 
   
 # Chromium
