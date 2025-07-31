@@ -16,6 +16,10 @@ https://aws.plainenglish.io/how-to-edit-a-forked-repo-from-github-3616416c7bbf
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
+# nb
+- [My Knowledge Base With "nb"](https://wilw.dev/blog/2024/09/22/nb/)
+- [Using Github to write my notes has helped me retain knowledge immensely. ](https://www.reddit.com/r/learnprogramming/comments/11n6n7z/using_github_to_write_my_notes_has_helped_me/)
+
 * #git config
 * git config --global user.name
 * git config --global user.email
