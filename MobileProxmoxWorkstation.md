@@ -151,7 +151,10 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [You do not need \[tool\] for simple gitops (most times)](https://eskerda.com/you-do-not-need-tool-for-simple-gitops-most-times/)
 - [Minimal GitOps-like Deployment Tool](https://usher.dev/posts/2025-02-17-minimal-cluster-deployment-tool/)
 
+# Chroot install Proxmox
+- [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
 
+  
 # Chromium
 - [Launch Chromium in kiosk mode](https://sylvaindurand.org/launch-chromium-in-kiosk-mode/)
 - 
