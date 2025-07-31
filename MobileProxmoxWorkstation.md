@@ -130,6 +130,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - https://fedx.prose.sh/Adding_New_Distros_to_Distrobox
 - Then use your void pkgs under kiss, and gradually replace them (if you want) "ship of Theseus" style.
 - [Daily driving KISS ](https://www.reddit.com/r/kisslinux/comments/1llvuj7/daily_driving_kiss/)
+- [Adding new Distros to Distrobox](https://fedx.prose.sh/Adding_New_Distros_to_Distrobox)
 
 
 # Proxmox
