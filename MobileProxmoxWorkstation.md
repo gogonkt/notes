@@ -151,6 +151,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [You do not need \[tool\] for simple gitops (most times)](https://eskerda.com/you-do-not-need-tool-for-simple-gitops-most-times/)
 - [Minimal GitOps-like Deployment Tool](https://usher.dev/posts/2025-02-17-minimal-cluster-deployment-tool/)
 - [GitOps in 2025: From Old-School Updates to the Modern Way ](https://www.cncf.io/blog/2025/06/09/gitops-in-2025-from-old-school-updates-to-the-modern-way/)
+- [Implementing GitOps without Kubernetes](https://www.innoq.com/en/articles/2025/01/gitops-kubernetes/)
 
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
