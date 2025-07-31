@@ -125,6 +125,13 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
 - [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
 
+# distrobox
+- Suggestion: make a copy of your void rootfs, & make it runnable under distrobox. You don't have to bootstrap a fresh distro rootfs from scratch:
+- https://fedx.prose.sh/Adding_New_Distros_to_Distrobox
+- Then use your void pkgs under kiss, and gradually replace them (if you want) "ship of Theseus" style.
+- [Daily driving KISS ](https://www.reddit.com/r/kisslinux/comments/1llvuj7/daily_driving_kiss/)
+
+
 # Proxmox
 - [Exploring Proxmox as a Total Beginner: Seeking Guidance and Tips](https://www.reddit.com/r/Proxmox/comments/171g9l7/exploring_proxmox_as_a_total_beginner_seeking/)
 - [Beginners guide for Proxmox based homelab setup on an old consumer hardware like desktop pc/laptop. ](https://www.reddit.com/r/Proxmox/comments/154k57h/beginners_guide_for_proxmox_based_homelab_setup/)
