@@ -132,6 +132,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Daily driving KISS ](https://www.reddit.com/r/kisslinux/comments/1llvuj7/daily_driving_kiss/)
 - [Adding new Distros to Distrobox](https://fedx.prose.sh/Adding_New_Distros_to_Distrobox)
 
+# mise-en-place
+- [mise-en-place](https://mise.jdx.dev/)
+
 
 # Proxmox
 - [Exploring Proxmox as a Total Beginner: Seeking Guidance and Tips](https://www.reddit.com/r/Proxmox/comments/171g9l7/exploring_proxmox_as_a_total_beginner_seeking/)
