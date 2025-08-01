@@ -41,6 +41,7 @@
 - [Proxmox with WiFi ](https://www.reddit.com/r/Proxmox/comments/zqejl4/proxmox_with_wifi/)
 - ==> [ProxMox with WiFi](https://www.x88.in/proxmox-with-wifi) ***
 - [\[TUTORIAL\] HOWTO - Proxmox VE 8-1.2 Wifi w/ SNAT](https://forum.proxmox.com/threads/howto-proxmox-ve-8-1-2-wifi-w-snat.142831/)
+- [\[TUTORIAL\] Setup Proxmox Network with WiFi Interface and VPN](https://forum.proxmox.com/threads/setup-proxmox-network-with-wifi-interface-and-vpn.143145/)
 - [Setting up Proxmox over wifi](https://github.com/ThomasRives/Proxmox-over-wifi)
 - Install Necessary Packages
 
