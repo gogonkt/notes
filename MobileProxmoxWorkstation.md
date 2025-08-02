@@ -128,7 +128,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
 - [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
 
-# distrobox
+# [distrobox](https://distrobox.it/)
 - Suggestion: make a copy of your void rootfs, & make it runnable under distrobox. You don't have to bootstrap a fresh distro rootfs from scratch:
 - https://fedx.prose.sh/Adding_New_Distros_to_Distrobox
 - Then use your void pkgs under kiss, and gradually replace them (if you want) "ship of Theseus" style.
