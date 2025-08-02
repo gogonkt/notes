@@ -372,7 +372,8 @@ echo 1500 > /sys/class/backlight/intel_backlight/brightness
 ```
 # chown -R your_user /path/to/mount_point
 ```
-
+# frood, an Alpine initramfs NAS
+- [frood, an Alpine initramfs NAS](https://words.filippo.io/frood/)
 
 
 
