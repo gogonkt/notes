@@ -36,10 +36,10 @@
 - [Proxmox Helper Scripts: A Technical Guide](https://www.horizoniq.com/blog/proxmox-helper-scripts/)
 
 2. ## wifi setup
-- [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8)
+- [Setting Up Proxmox on a Laptop Without an Ethernet Port](https://dev.to/varungujarathi9/setting-up-proxmox-on-a-laptop-without-an-ethernet-port-28n8) ***Worked***
 - [Guide: How to configure Proxmox with WiFi](https://blog.vivekkaushik.com/guide-how-to-configure-proxmox-with-wifi)
 - [Proxmox with WiFi ](https://www.reddit.com/r/Proxmox/comments/zqejl4/proxmox_with_wifi/)
-- ==> [ProxMox with WiFi](https://www.x88.in/proxmox-with-wifi) ***
+- ==> [ProxMox with WiFi](https://www.x88.in/proxmox-with-wifi)
 - [\[TUTORIAL\] HOWTO - Proxmox VE 8-1.2 Wifi w/ SNAT](https://forum.proxmox.com/threads/howto-proxmox-ve-8-1-2-wifi-w-snat.142831/)
 - [\[TUTORIAL\] Setup Proxmox Network with WiFi Interface and VPN](https://forum.proxmox.com/threads/setup-proxmox-network-with-wifi-interface-and-vpn.143145/)
 - [Setting up Proxmox over wifi](https://github.com/ThomasRives/Proxmox-over-wifi)
