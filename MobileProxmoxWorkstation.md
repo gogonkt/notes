@@ -123,6 +123,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # Podman or Docker
 - [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
+- quadlet
 
 # docker container X forwarding
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
