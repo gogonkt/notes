@@ -10,38 +10,39 @@ I just want to run containers on Proxmox in a maintainable way.
 
 How should a solution look?
 
-Must not modify the base Proxmox system.
-Run in VM or unprivileged LXC.
-Should be lightweight because my system is often tight on RAM.
-Run in Alpine Linux LXC.
-I want to try something other than Docker managed with Portainer.
-Podman managed with Dockge!
-Why Dockge? Dockge simplifies the most tedious parts of containers: creation, execution, and navigation. I also appreciate how it exposes all the most important info without extra clicks. It’s a very new project, so I don’t know what else to expect, but I also don’t mind running an occasional podman command to do other stuff.
+- Must not modify the base Proxmox system.
+    - Run in VM or unprivileged LXC.
+- Should be lightweight because my system is often tight on RAM.
+    - Run in Alpine Linux LXC.
+- I want to try something other than Docker managed with Portainer.
+    - Podman managed with Dockge!
 
-Why not Yacht? Yacht did seem to work with Docker, but its UI moves around too much for me. Its disappearing menus and scrollbars make me lose focus.
+**Why Dockge?** Dockge simplifies the most tedious parts of containers: creation, execution, and navigation. I also appreciate how it exposes all the most important info without extra clicks. It’s a very new project, so I don’t know what else to expect, but I also don’t mind running an occasional podman command to do other stuff.
 
-Why not Portainer? Portainer introduced a distracting advertisement for its Business Edition earlier this year. It became less obnoxious after 6 months, but it’s clear that the project cannot exist as purely open source.
+**Why not Yacht?** Yacht did seem to work with Docker, but its UI moves around too much for me. Its disappearing menus and scrollbars make me lose focus.
 
-Why not Kubernetes? I’d like to, but Minikube and K3s complain about Cgroups.
+**Why not Portainer?** Portainer introduced a distracting advertisement for its Business Edition earlier this year. It became less obnoxious after 6 months, but it’s clear that the project cannot exist as purely open source.
 
-Why not in a VM? If RAM wasn’t a concern, I would have used a virtual machine like the Proxmox admin guide recommends for application containers. Though I must admit that LXCs and ZFS filesystems are more accessible than VMs and ZFS volumes.
+**Why not Kubernetes?** I’d like to, but Minikube and K3s complain about Cgroups.
+
+**Why not in a VM?** If RAM wasn’t a concern, I would have used a virtual machine like the Proxmox admin guide recommends for application containers. Though I must admit that LXCs and ZFS filesystems are more accessible than VMs and ZFS volumes.
 
 ## Install
 Before continuing, I should note a few non-standard decisions with my setup:
 
-Podman uses fuse-overlayfs because it works and also fits my mental model.
-Dockge looks for compose.yaml files in /opt/compose/ instead of /opt/stacks/ because plural directory names are silly.
-Dockge is configured in /opt/compose/dockge/compose.yaml instead of /opt/dockge/compose.yaml.
-Dockge stores data in a Podman-managed dockge_data volume rather than a /opt/dockge/data/ directory.
+- Podman uses fuse-overlayfs because it works and also fits my mental model.
+- Dockge looks for compose.yaml files in /opt/compose/ instead of /opt/stacks/ because plural directory names are silly.
+- Dockge is configured in /opt/compose/dockge/compose.yaml instead of /opt/dockge/compose.yaml.
+- Dockge stores data in a Podman-managed dockge_data volume rather than a /opt/dockge/data/ directory.
 
 ## LXC
 In Proxmox, download an Alpine “CT Template” and then “Create CT” with it. There’s nothing particularly special in the creation process.
 
-Add fuse feature in the Proxmox CT’s options.
-(optional) Mount a few drives. I do this to keep data organized in its underlying ZFS storage.
-/opt/compose (small, holds compose.yaml files)
-/var/lib/containers (holds images, use lightweight snapshot/backup policy)
-/var/lib/containers/storage/volumes (holds container data)
+- Add fuse feature in the Proxmox CT’s options.
+- (optional) Mount a few drives. I do this to keep data organized in its underlying ZFS storage.
+    - /opt/compose (small, holds compose.yaml files)
+    - /var/lib/containers (holds images, use lightweight snapshot/backup policy)
+    - /var/lib/containers/storage/volumes (holds container data)
 
 ## Podman
 Boot into the new Alpine LXC and run the following commands.
