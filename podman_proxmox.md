@@ -98,7 +98,7 @@ The in_pod: false part is to work around newer podman-compose versions enforcing
 ## Test
 That’s it. Dockge should now be accessible on port 5001. If you want a simple test, use the following YAML file to set up a stack. It just prints a version number and exits.
 
-```
+```yaml
 # This file is /opt/compose/fildesh_oneoff/compose.yaml
 # if you name the stack "fildesh_oneoff".
 services:
