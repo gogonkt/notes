@@ -1,13 +1,14 @@
 grencez.dev
-How to run Podman and Dockge in an Alpine LXC on Proxmox
+
+# How to run Podman and Dockge in an Alpine LXC on Proxmox
 Date: 2023-11-26
 
 Update: 2025-05-10 (podman-compose cgroups v2 enforcement workaround)
 
-Motivation
+## Motivation
 I just want to run containers on Proxmox in a maintainable way.
 
-How should a solution look?
+## How should a solution look?
 
 Must not modify the base Proxmox system.
 Run in VM or unprivileged LXC.
@@ -25,14 +26,15 @@ Why not Kubernetes? I’d like to, but Minikube and K3s complain about Cgroups.
 
 Why not in a VM? If RAM wasn’t a concern, I would have used a virtual machine like the Proxmox admin guide recommends for application containers. Though I must admit that LXCs and ZFS filesystems are more accessible than VMs and ZFS volumes.
 
-Install
+## Install
 Before continuing, I should note a few non-standard decisions with my setup:
 
 Podman uses fuse-overlayfs because it works and also fits my mental model.
 Dockge looks for compose.yaml files in /opt/compose/ instead of /opt/stacks/ because plural directory names are silly.
 Dockge is configured in /opt/compose/dockge/compose.yaml instead of /opt/dockge/compose.yaml.
 Dockge stores data in a Podman-managed dockge_data volume rather than a /opt/dockge/data/ directory.
-LXC
+
+## LXC
 In Proxmox, download an Alpine “CT Template” and then “Create CT” with it. There’s nothing particularly special in the creation process.
 
 Add fuse feature in the Proxmox CT’s options.
@@ -40,9 +42,11 @@ Add fuse feature in the Proxmox CT’s options.
 /opt/compose (small, holds compose.yaml files)
 /var/lib/containers (holds images, use lightweight snapshot/backup policy)
 /var/lib/containers/storage/volumes (holds container data)
-Podman
+
+## Podman
 Boot into the new Alpine LXC and run the following commands.
 
+```
 # Testing repository is required for podman-compose.
 echo 'https://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
 apk update
@@ -54,9 +58,12 @@ sed -i -e 's:.*mount_program *=.*:mount_program = "/usr/bin/fuse-overlayfs":' /e
 rc-update add podman boot
 # We updated a lot. Get a fresh boot.
 reboot
-Dockge
+```
+
+## Dockge
 After rebooting into the Alpine LXC, create a Dockge compose.yaml file and run it with the following commands. It differs from the default compose.yaml in the ways mentioned earlier.
 
+```
 mkdir -p /opt/compose/dockge
 
 cat >/opt/compose/dockge/compose.yaml <<HERE
@@ -83,11 +90,14 @@ HERE
 
 cd /opt/compose/dockge
 podman-compose up -d
+```
+
 The in_pod: false part is to work around newer podman-compose versions enforcing cgroups v2. Kudos to wrobelda on Proxmox forums for this tip.
 
-Test
+## Test
 That’s it. Dockge should now be accessible on port 5001. If you want a simple test, use the following YAML file to set up a stack. It just prints a version number and exits.
 
+```
 # This file is /opt/compose/fildesh_oneoff/compose.yaml
 # if you name the stack "fildesh_oneoff".
 services:
@@ -95,4 +105,6 @@ services:
     restart: no
     image: ghcr.io/fildesh/fildesh:latest
     command: --version
+```
+
 This site is open source. Improve this page.
