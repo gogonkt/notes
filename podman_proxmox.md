@@ -47,7 +47,7 @@ In Proxmox, download an Alpine “CT Template” and then “Create CT” with i
 ## Podman
 Boot into the new Alpine LXC and run the following commands.
 
-```
+```sh
 # Testing repository is required for podman-compose.
 echo 'https://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
 apk update
@@ -64,7 +64,7 @@ reboot
 ## Dockge
 After rebooting into the Alpine LXC, create a Dockge compose.yaml file and run it with the following commands. It differs from the default compose.yaml in the ways mentioned earlier.
 
-```
+```sh
 mkdir -p /opt/compose/dockge
 
 cat >/opt/compose/dockge/compose.yaml <<HERE
