@@ -139,6 +139,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
   export https_proxy="socks5://127.0.0.1:8089"
   ```
 
+# podman compose.yaml
+- https://www.composerize.com/
+
 # docker container X forwarding
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
 - [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
