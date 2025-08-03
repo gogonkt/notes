@@ -8,7 +8,7 @@ Update: 2025-05-10 (podman-compose cgroups v2 enforcement workaround)
 ## Motivation
 I just want to run containers on Proxmox in a maintainable way.
 
-## How should a solution look?
+How should a solution look?
 
 Must not modify the base Proxmox system.
 Run in VM or unprivileged LXC.
