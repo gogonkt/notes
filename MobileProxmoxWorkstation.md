@@ -151,6 +151,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
 - [How to Run GUI Apps inside LXC containers](https://paula-rusti.hashnode.dev/how-to-run-gui-apps-inside-lxc-containers)
+- Mount directory to LXC container
 - [Exposing a directory on the host machine to an LXC container](https://gist.github.com/julianlam/07abef272136ea14a627)
 - [Proxmox Assign Bind Mount To Unprivileged Container](https://gist.github.com/ajmassi/e6862294d114467b46f9b7f073921352)
 
