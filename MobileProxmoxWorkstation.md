@@ -147,6 +147,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
 - [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
 
+# alpine-autossh
+- [alpine-autossh](https://github.com/ctroncoso/alpine-autossh) alpine-autossh is a small lightweight (8.5MB) image that attempts to provide a secure way to establish an SSH Tunnel without including your keys in the image itself or linking to the host .
+
 # [distrobox](https://distrobox.it/)
 - Suggestion: make a copy of your void rootfs, & make it runnable under distrobox. You don't have to bootstrap a fresh distro rootfs from scratch:
 - https://fedx.prose.sh/Adding_New_Distros_to_Distrobox
