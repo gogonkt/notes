@@ -151,6 +151,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
 - [How to Run GUI Apps inside LXC containers](https://paula-rusti.hashnode.dev/how-to-run-gui-apps-inside-lxc-containers)
+- [Exposing a directory on the host machine to an LXC container](https://gist.github.com/julianlam/07abef272136ea14a627)
+- [two reliable ways to bind-mount a host directory into an unprivileged container](https://www.reddit.com/r/Proxmox/comments/slfhka/two_reliable_ways_to_bindmount_a_host_directory/)
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
