@@ -136,7 +136,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # docker container X forwarding
 - [Basic container for X11 forwarding goodness ](https://gist.github.com/udkyo/c20935c7577c71d634f0090ef6fa8393)
-- [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc)
+- [docker-wine-x11-novnc](https://github.com/sykuang/docker-wine-x11-novnc) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md)
 
 # [distrobox](https://distrobox.it/)
 - Suggestion: make a copy of your void rootfs, & make it runnable under distrobox. You don't have to bootstrap a fresh distro rootfs from scratch:
