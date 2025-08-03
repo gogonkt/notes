@@ -195,6 +195,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [GitOps in 2025: From Old-School Updates to the Modern Way ](https://www.cncf.io/blog/2025/06/09/gitops-in-2025-from-old-school-updates-to-the-modern-way/)
 - [Implementing GitOps without Kubernetes](https://www.innoq.com/en/articles/2025/01/gitops-kubernetes/)
 
+- [Building a LXC in Proxmox with Automation](https://noted.lol/building-a-lxc-in-proxmox-with-automation/)
+
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
 - [Moving Proxmox ZFS boot drive to a new disk](https://lucatnt.com/tag/proxmox/)
