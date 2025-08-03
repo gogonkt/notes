@@ -1,6 +1,14 @@
 # Mobile Proxmox Workstation
 
 # Setup 
+
+TL;DR
+0. backlight
+1. post pve install script ( 1 ## ==> )
+2. xfce4 & font ( 3. )
+3. wifi ( 1. )
+4. podman ( 
+
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
 1. ## Configuring Proxmox after installation
