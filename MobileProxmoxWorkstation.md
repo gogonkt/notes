@@ -188,6 +188,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Exposing a directory on the host machine to an LXC container](https://gist.github.com/julianlam/07abef272136ea14a627)
 - [Proxmox Assign Bind Mount To Unprivileged Container](https://gist.github.com/ajmassi/e6862294d114467b46f9b7f073921352)
 - [Resolving permissions issues with host bind mounts in LXC/LXD containers](https://www.reddit.com/r/homelab/comments/4h0erv/resolving_permissions_issues_with_host_bind/)
+- [Unprivileged LXC containers](https://pve.proxmox.com/wiki/Unprivileged_LXC_containers)
 - 
 
 - [Bind Mount Points](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#_bind_mount_points) **Worked** ==> ```# pct set 100 -mp0 /media/data,mp=/media/data ```
