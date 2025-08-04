@@ -133,7 +133,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # Podman or Docker
 - [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
-- [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
+- 
+
 - quadlet
 - [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md)
   ```
