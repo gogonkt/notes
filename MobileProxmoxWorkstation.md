@@ -133,6 +133,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 # Podman or Docker
 - [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
+- [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - quadlet
 - [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md)
   ```
@@ -181,7 +182,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Beginners guide for Proxmox based homelab setup on an old consumer hardware like desktop pc/laptop. ](https://www.reddit.com/r/Proxmox/comments/154k57h/beginners_guide_for_proxmox_based_homelab_setup/)
 - [5 Proxmox Projects to Level Up Your Home Lab This Weekend ](https://www.virtualizationhowto.com/2025/07/5-proxmox-projects-to-level-up-your-home-lab-this-weekend/)
 - [Install Proxmox VE on USB Stick](https://c-nergy.be/blog/?p=1159) vbox
-- [running Docker inside LXCs](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
+
 - [Resolving Alpine Linux Wi-Fi Issues: Simple Guide](https://krython.com/post/resolving-alpine-linux-wi-fi-issues/)
 - [How to Run GUI Apps inside LXC containers](https://paula-rusti.hashnode.dev/how-to-run-gui-apps-inside-lxc-containers)
 - Mount directory to LXC container
