@@ -182,6 +182,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - Mount directory to LXC container
 - [Exposing a directory on the host machine to an LXC container](https://gist.github.com/julianlam/07abef272136ea14a627)
 - [Proxmox Assign Bind Mount To Unprivileged Container](https://gist.github.com/ajmassi/e6862294d114467b46f9b7f073921352)
+- [Bind Mount Points](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#_bind_mount_points)
 - [how to increase the size of proxmox LXC container???](https://forum.proxmox.com/threads/how-to-increase-the-size-of-proxmox-lxc-container.119453/)
 - ``` # pct resize 999 rootfs 200G ```
 
