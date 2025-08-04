@@ -183,7 +183,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - Mount directory to LXC container
 - [Exposing a directory on the host machine to an LXC container](https://gist.github.com/julianlam/07abef272136ea14a627)
 - [Proxmox Assign Bind Mount To Unprivileged Container](https://gist.github.com/ajmassi/e6862294d114467b46f9b7f073921352)
-- [Bind Mount Points](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#_bind_mount_points)
+- [Bind Mount Points](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#_bind_mount_points) **Worked** ==> ```# pct set 100 -mp0 /media/data,mp=/media/data ```
   - For example, to make the directory /mnt/bindmounts/shared accessible in the container with ID 100 under the path /shared, add a configuration line such as:
   - ``` mp0: /mnt/bindmounts/shared,mp=/shared ```
   - into ```/etc/pve/lxc/100.conf.```
