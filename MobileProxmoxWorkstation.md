@@ -168,6 +168,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # alpine-autossh
 - [alpine-autossh](https://github.com/ctroncoso/alpine-autossh) alpine-autossh is a small lightweight (8.5MB) image that attempts to provide a secure way to establish an SSH Tunnel without including your keys in the image itself or linking to the host .
 - ssh key rsa [Setup SSH Passwordless Login ](https://wiki.debian.org/Setup%20SSH%20Passwordless%20Login)
+- ```chmod 600 ~/.ssh/id_rsa```
 
 # [distrobox](https://distrobox.it/)
 - Suggestion: make a copy of your void rootfs, & make it runnable under distrobox. You don't have to bootstrap a fresh distro rootfs from scratch:
