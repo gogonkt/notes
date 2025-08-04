@@ -141,6 +141,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
   export https_proxy="socks5://127.0.0.1:8089"
   ```
 - Podman Socks5 [通过socks5本地代理下载docker镜像](https://blog.csdn.net/weixin_42603116/article/details/139870863)
+- [-p](https://docs.podman.io/en/v5.0.2/markdown/podman-run.1.html#publish-p-ip-hostport-containerport-protocol)
+  - ```--publish, -p=[[ip:][hostPort]:]containerPort[/protocol]```
 
 # Tailscale
 - [Using Tailscale with Docker](https://tailscale.com/kb/1282/docker)
