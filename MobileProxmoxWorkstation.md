@@ -136,6 +136,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - Unfortunately, setting up network shares inside unprivileged LXCs can be a bit of an issue. If you’re planning to connect CIFS/NFS volumes to your Docker LXC, you might want to opt for a privileged container. But since these LXCs map the container UID 0 to the Proxmox host’s UID 0, you’ll have to deal with heightened security risks.
 - [I switched to Podman from Docker, and I should have done it sooner](https://www.xda-developers.com/i-switched-to-podman-instead-of-docker/)
 - [A beginner's guide to containerization with Podman](https://www.xda-developers.com/a-beginners-guide-to-containerization-with-podman/)
+- 
+
+
 - quadlet
 - [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md)
   ```
