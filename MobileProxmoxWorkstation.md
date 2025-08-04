@@ -190,7 +190,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Resolving permissions issues with host bind mounts in LXC/LXD containers](https://www.reddit.com/r/homelab/comments/4h0erv/resolving_permissions_issues_with_host_bind/)
 - [Unprivileged LXC containers](https://pve.proxmox.com/wiki/Unprivileged_LXC_containers)
 - However you will soon realise that every file and directory will be mapped to "nobody" (uid 65534), which is fine as long as
-- 
+- [Proxmox Unprivilaged LXC Container Bind Mount UID/GID Mapping](https://www.apalrd.net/posts/2023/tip_idmap/) backup
 
 - [Bind Mount Points](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#_bind_mount_points) **Worked** ==> ```# pct set 100 -mp0 /media/data,mp=/media/data ```
   - For example, to make the directory /mnt/bindmounts/shared accessible in the container with ID 100 under the path /shared, add a configuration line such as:
