@@ -141,6 +141,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
   ```
 - Podman Socks5 [通过socks5本地代理下载docker镜像](https://blog.csdn.net/weixin_42603116/article/details/139870863)
 
+# Tailscale
+- [Using Tailscale with Docker](https://tailscale.com/kb/1282/docker)
+
 # podman compose.yaml
 - https://www.composerize.com/
 
