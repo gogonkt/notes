@@ -8,7 +8,7 @@ TL;DR
 2. xfce4 & font ( 3. )
 3. wifi ( 1. )
 4. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
-5. wine ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
+5. wine container ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
 6. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox)
 
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
