@@ -191,6 +191,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Unprivileged LXC containers](https://pve.proxmox.com/wiki/Unprivileged_LXC_containers)
 - However you will soon realise that every file and directory will be mapped to "nobody" (uid 65534), which is fine as long as
 - [Proxmox Unprivilaged LXC Container Bind Mount UID/GID Mapping](https://www.apalrd.net/posts/2023/tip_idmap/) [backup](https://github.com/gogonkt/notes/blob/main/ProxmoxBindMountUIDGID.md)
+- After doing this, I did a recursive chown of the data directories to 1000:1000 on host and this also makes the guest’s user 1000 have access (since it’s idmapped).
+- chown -R 1005:1005 /mnt/bindmounts/shared
 
 - 
 
