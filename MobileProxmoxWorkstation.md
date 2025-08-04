@@ -156,7 +156,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - 检查端口占用: 使用 netstat -tuln 或 lsof -i :8080 检查端口 8080 是否已被占用。 [Wine-X11-noVNC Docker 项目常见问题解决方案](https://blog.csdn.net/gitblog_00039/article/details/144503221) **Worked**
 - ==> https://hub.docker.com/r/solarkennedy/wine-x11-novnc-docker **Worked**
   - ```docker run --rm -p 8080:8080 solarkennedy/wine-x11-novnc-docker```
-  - ```docker run --rm -p 8080:8080 -v /media/data/containers/podman/volumes/_data/mt4:/root/prefix32/drive_c/users/root/Desktop/ solarkennedy/wine-x11-novnc-docker```
+  - ```docker run --rm -p 8080:8080 -v /media/data/containers/podman/volumes/_data/mt4:/root/prefix32/drive_c/users/root/Desktop/mt4 solarkennedy/wine-x11-novnc-docker```
 - ==> https://github.com/solarkennedy/wine-x11-novnc-docker
 
 # alpine-autossh
