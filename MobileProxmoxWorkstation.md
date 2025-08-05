@@ -191,10 +191,12 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
   HERE
 
   # for some reason
+
+  apk add openssh iptables
+
   pkill ssh ; ssh -CNf -D 8089 user@ssh_host
   export https_proxy="socks5://127.0.0.1:8089";export http_proxy="socks5://127.0.0.1:8089" #proxy
 
-  apk add openssh iptables
 
   cd /opt/compose/dockge
   podman-compose up -d
