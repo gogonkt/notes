@@ -136,6 +136,9 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - Unfortunately, setting up network shares inside unprivileged LXCs can be a bit of an issue. If you’re planning to connect CIFS/NFS volumes to your Docker LXC, you might want to opt for a privileged container. But since these LXCs map the container UID 0 to the Proxmox host’s UID 0, you’ll have to deal with heightened security risks.
 - [I switched to Podman from Docker, and I should have done it sooner](https://www.xda-developers.com/i-switched-to-podman-instead-of-docker/)
 - [A beginner's guide to containerization with Podman](https://www.xda-developers.com/a-beginners-guide-to-containerization-with-podman/)
+- [Lightest way to set up file shares running completely on ProxMox](https://forum.proxmox.com/threads/lightest-way-to-set-up-file-shares-running-completely-on-proxmox.164954/) NFS
+- Create a new LXC ( "Create CT" button ) and go with the "debian 12 Turnkey fileserver" - it has a stripped-down webmin interface that makes configuring easy. For samba-only access you can stick with Unprivileged, but leave Nesting on.
+- https://www.turnkeylinux.org/fileserver
 - 
 
 
