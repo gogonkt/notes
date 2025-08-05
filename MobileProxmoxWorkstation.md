@@ -10,6 +10,7 @@ TL;DR
 4. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 5. wine container ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
 6. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox) )
+7. NFS ( [NFS](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
