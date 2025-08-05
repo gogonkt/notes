@@ -144,12 +144,58 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 
 - quadlet
-- [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md)
+- [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md) Podman and Dockge
   ```
   apk add openssh
   export http_proxy="socks5://127.0.0.1:8089" #proxy
   export https_proxy="socks5://127.0.0.1:8089"
   ```
+  ### Podman
+  ```bash
+  # install Podman and Dockge
+  # Testing repository is required for podman-compose.
+  echo 'https://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
+  apk -U upgrade
+  apk add fuse-overlayfs podman-docker podman-compose
+  # Ensure Podman uses fuse-overlayfs.
+  sed -i -e 's:.*mount_program *=.*:mount_program = "/usr/bin/fuse-overlayfs":' /etc/containers/storage.conf
+  # Always start Podman on boot.
+  rc-update add podman boot
+  # We updated a lot. Get a fresh boot.
+  reboot
+  ```
+  ### Dockge
+  ```bash
+  mkdir -p /opt/compose/dockge
+
+  cat >/opt/compose/dockge/compose.yaml <<HERE
+  x-podman:
+    in_pod: false
+  volumes:
+    dockge_data:
+    driver: local
+    name: "dockge_data"
+  services:
+  dockge:
+    image: louislam/dockge:1
+    restart: always
+    ports:
+      # Host Port : Container Port
+      - 5001:5001
+    volumes:
+      - /var/run/podman/podman.sock:/var/run/docker.sock
+      - dockge_data:/app/data
+      - /opt/compose:/opt/compose
+    environment:
+      - DOCKGE_STACKS_DIR=/opt/compose
+  HERE
+
+  cd /opt/compose/dockge
+  podman-compose up -d
+
+  ```
+  
+  
 - Podman Socks5 [通过socks5本地代理下载docker镜像](https://blog.csdn.net/weixin_42603116/article/details/139870863)
 - [-p](https://docs.podman.io/en/v5.0.2/markdown/podman-run.1.html#publish-p-ip-hostport-containerport-protocol)
   - ```--publish, -p=[[ip:][hostPort]:]containerPort[/protocol]```
