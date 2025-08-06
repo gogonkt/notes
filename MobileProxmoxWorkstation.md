@@ -6,8 +6,8 @@ TL;DR
 
 1. xfce4, firefox, font ( 3. )
 2. backlight
-3. post pve install script ( 1 ## ==> )
-4. 
+3. set firefox
+4. post pve install script ( 1 ## ==> )
 5. wifi ( 1. )
 6. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 7. wine container ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
