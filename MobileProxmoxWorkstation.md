@@ -112,7 +112,8 @@ systemctl restart networking
 - [Mobile Proxmox Workstation working incredibly well](https://www.reddit.com/r/Proxmox/comments/okelu9/mobile_proxmox_workstation_working_incredibly_well/)
 ```
 apt update
-apt-get install xfce4 chromium lightdm fonts-noto-cjk
+# apt-get install xfce4 chromium lightdm fonts-noto-cjk
+apt install xfce4 firefox-esr lightdm fonts-noto-cjk -y
 ```
 
 ## Ref.
