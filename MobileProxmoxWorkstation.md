@@ -150,8 +150,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [How to run Podman and Dockge in an Alpine LXC on Proxmox](https://grencez.dev/2023/podman-dockge-20231126/) > [backup](https://github.com/gogonkt/notes/blob/main/podman_proxmox.md) Podman and Dockge
   ```
   apk add openssh
-  export http_proxy="socks5://127.0.0.1:8089" #proxy
-  export https_proxy="socks5://127.0.0.1:8089"
+  
+  export https_proxy="socks5://127.0.0.1:8089"; export http_proxy="socks5://127.0.0.1:8089" #proxy
   ```
   ### Podman
   ```bash
