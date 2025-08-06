@@ -4,9 +4,9 @@
 
 TL;DR
 
-1. xfce4, firefox, font ( 3. )
+1. xfce4, chromium, font ( 3. )
 2. backlight
-3. set firefox
+3. set chromium
 4. post pve install script ( 1 ## ==> )
 5. wifi ( 1. )
 6. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
@@ -113,7 +113,7 @@ systemctl restart networking
 ```
 apt update
 # apt-get install xfce4 chromium lightdm fonts-noto-cjk
-apt install xfce4 firefox-esr lightdm fonts-noto-cjk -y
+apt install xfce4 chromium lightdm fonts-noto-cjk -y
 ```
 
 ## Ref.
