@@ -3,14 +3,16 @@
 # Setup 
 
 TL;DR
-0. backlight
-1. post pve install script ( 1 ## ==> )
-2. xfce4 & font ( 3. )
-3. wifi ( 1. )
-4. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
-5. wine container ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
-6. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox) )
-7. NFS ( [NFS](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
+
+1. xfce4, firefox, font ( 3. )
+2. backlight
+3. post pve install script ( 1 ## ==> )
+4. 
+5. wifi ( 1. )
+6. podman ( [padman & dockge](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
+7. wine container ( [wine](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#docker-container-x-forwarding) )
+8. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox) )
+9. NFS ( [NFS](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
