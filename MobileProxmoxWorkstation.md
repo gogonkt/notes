@@ -324,7 +324,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 13. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
 14. [ImmortalWrt旁路由安装与配置](https://blog.eggtargaryen.com/posts/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/20241227_1.html)
 15. [OpenClash 保姆级设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules)
-16. [OpenClash替换使用Mihomo内核](https://deeprouter.org/article/how-to-use-mihomo-on-openclash)
+16. [OpenClash替换使用Mihomo内核](https://deeprouter.org/article/how-to-use-mihomo-on-openclash) file name ```clash_meta``` XD
 
 
 
