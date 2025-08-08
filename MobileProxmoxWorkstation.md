@@ -318,29 +318,10 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 7. ```cp immortalwrt.qcow2 /var/lib/vz/template/qemu/```
 8. [Add QCOW2 to proxmox](https://bobcares.com/blog/add-qcow2-to-proxmox/)
 9. https://pve.proxmox.com/wiki/Migrate_to_Proxmox_VE  ```qm disk import```
-10. [openWRT - Problem with DNS]([url](https://www.reddit.com/r/openwrt/comments/10pc11i/openwrt_problem_with_dns/))
-11. ```
-    I know this is an old post but I have just figured out a more elegant solution to this problem:
-
-    In OpenWrt Luci go to Setting > Network > DHCP and DNS
-
-    Goto "Resolv & Hosts Files" Tab
-
-    Check "Ignore resolv file" Save & Apply
-
-    Go to Network > Interfaces
-
-    Edit WAN interface
-
-    Go to "Advanced Settings" tab
-
-    Under "Use custom DNS servers" add "192.168.1.1", or whatever the IP of your adguard instance is.
-
-    Reboot OpenWrt for reassurance.
-
-    You can double check the resolv.conf file if you SSH into your OpenWrt router using "cat /etc/resolv.conf" and the only entry in that file should be "nameserver 192.168.1.1" or whatever IP you entered in step 8.
-
-    While inside OpenWrt shell you can "nslookup openwrt.org" and it should return successfully. You can also do this in the Luci diagnostics page.```
+10. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
+11. [OpenWRT can't resolved DNS](https://www.reddit.com/r/openwrt/comments/owp9u2/openwrt_cant_resolved_dns/)
+12. So I edited the dnsmasq ```# DNS_SERVERS="$DNS_SERVERS 127.0.0.1" ==> DNS_SERVERS="$DNS_SERVERS 192.168.2.31"```Now, every time the OpenWRT, the /temp/resolv.conf has ```nameserver 192.168.2.31```
+13. 
 
 
 
