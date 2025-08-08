@@ -21,6 +21,10 @@ TL;DR
 5. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox) )
 6. NFS ( [NFS](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 
+- tproxy
+
+
+
 ## ==> [Proxmox VE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) can do all post install
 
 1. ## Configuring Proxmox after installation
@@ -302,6 +306,12 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Implementing GitOps without Kubernetes](https://www.innoq.com/en/articles/2025/01/gitops-kubernetes/)
 
 - [Building a LXC in Proxmox with Automation](https://noted.lol/building-a-lxc-in-proxmox-with-automation/)
+
+
+# tproxy
+1. [Proxmox VE 安装OpenWRT旁路由（三）ImmortalWrt&openclash](https://zhuanlan.zhihu.com/p/718052893)
+2. [tproxy（透明代理）](https://www.zhaohuabing.com/learning-linux/docs/tproxy/)
+
 
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
