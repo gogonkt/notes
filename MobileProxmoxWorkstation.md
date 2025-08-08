@@ -309,7 +309,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 
 
 # tproxy
-1. [Proxmox VE 安装OpenWRT旁路由（三）ImmortalWrt&openclash](https://zhuanlan.zhihu.com/p/718052893)
+1. [Proxmox VE 安装OpenWRT旁路由（三）ImmortalWrt&openclash](https://zhuanlan.zhihu.com/p/718052893) 无奈选着选着安装immortalWrt XD
 2. [tproxy（透明代理）](https://www.zhaohuabing.com/learning-linux/docs/tproxy/)
 
 
