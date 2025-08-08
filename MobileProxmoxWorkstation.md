@@ -317,6 +317,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 6. ```mkdir /var/lib/vz/template/qemu```
 7. ```cp immortalwrt.qcow2 /var/lib/vz/template/qemu/```
 8. [Add QCOW2 to proxmox](https://bobcares.com/blog/add-qcow2-to-proxmox/)
+9. https://pve.proxmox.com/wiki/Migrate_to_Proxmox_VE  ```qm disk import```
 
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
