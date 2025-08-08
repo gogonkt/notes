@@ -321,7 +321,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 10. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
 11. [OpenWRT can't resolved DNS](https://www.reddit.com/r/openwrt/comments/owp9u2/openwrt_cant_resolved_dns/)
 12. So I edited the dnsmasq ```# DNS_SERVERS="$DNS_SERVERS 127.0.0.1" ==> DNS_SERVERS="$DNS_SERVERS 192.168.2.31"```Now, every time the OpenWRT, the /temp/resolv.conf has ```nameserver 192.168.2.31```
-13. 
+13. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
+14. 
 
 
 
