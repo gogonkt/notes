@@ -311,7 +311,12 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 # tproxy
 1. [Proxmox VE 安装OpenWRT旁路由（三）ImmortalWrt&openclash](https://zhuanlan.zhihu.com/p/718052893) 无奈选着选着安装immortalWrt XD
 2. [tproxy（透明代理）](https://www.zhaohuabing.com/learning-linux/docs/tproxy/)
-
+3. [虚拟机安装ImmortalWrt，接近原版openwrt，更稳定好用](https://post.smzdm.com/p/arrq4q3g/)
+4. download immortalWrt qcow2
+5. ```gzip -d immortalwrt.qcow2.gz```
+6. ```mkdir /var/lib/vz/template/qemu```
+7. ```cp immortalwrt.qcow2 /var/lib/vz/template/qemu/```
+8. [Add QCOW2 to proxmox](https://bobcares.com/blog/add-qcow2-to-proxmox/)
 
 # Chroot install Proxmox
 - [Installing Debian (and Proxmox) by hand from a rescue environment](https://quantum5.ca/2024/08/12/installing-debian-proxmox-by-hand-from-rescue-environment/)
