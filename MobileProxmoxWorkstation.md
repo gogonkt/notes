@@ -21,7 +21,7 @@ TL;DR
 5. mount directory ( [mount](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#proxmox) )
 6. NFS ( [NFS](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#podman-or-docker) )
 
-- tproxy
+- [tproxy](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#tproxy)
 
 
 
