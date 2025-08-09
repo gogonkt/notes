@@ -320,7 +320,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 9. https://pve.proxmox.com/wiki/Migrate_to_Proxmox_VE  ```qm disk import```
 10. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
 11. [OpenWRT can't resolved DNS](https://www.reddit.com/r/openwrt/comments/owp9u2/openwrt_cant_resolved_dns/)
-12. So I edited the dnsmasq ```# DNS_SERVERS="$DNS_SERVERS 127.0.0.1" ==> DNS_SERVERS="$DNS_SERVERS 192.168.2.31"```Now, every time the OpenWRT, the /temp/resolv.conf has ```nameserver 192.168.2.31```
+12. /etc/init.d/dnsmasq So I edited the dnsmasq ```# DNS_SERVERS="$DNS_SERVERS 127.0.0.1" ==> DNS_SERVERS="$DNS_SERVERS 192.168.2.31"```Now, every time the OpenWRT, the /temp/resolv.conf has ```nameserver 192.168.2.31```
 13. https://developers.cloudflare.com/1.1.1.1/ip-addresses/
 14. [ImmortalWrt旁路由安装与配置](https://blog.eggtargaryen.com/posts/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/20241227_1.html)
 15. [OpenClash 保姆级设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules)
