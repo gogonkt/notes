@@ -326,6 +326,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 15. [OpenClash 保姆级设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules)
 16. [OpenClash替换使用Mihomo内核](https://deeprouter.org/article/how-to-use-mihomo-on-openclash) file name ```clash_meta``` XD **Worked**
 17. [OpenClash极简使用方案](https://www.iigeek.com/archives/370) [backup](https://github.com/gogonkt/notes/blob/main/openclashsetting.md) **Worked**
+18. https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml BaiPiao
 
 
 
