@@ -327,6 +327,8 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 16. [OpenClash替换使用Mihomo内核](https://deeprouter.org/article/how-to-use-mihomo-on-openclash) file name ```clash_meta``` XD **Worked**
 17. [OpenClash极简使用方案](https://www.iigeek.com/archives/370) [backup](https://github.com/gogonkt/notes/blob/main/openclashsetting.md) **Worked**
 18. https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml BaiPiao
+19. systemd-nspawn [别惦记你那All In BOOM了，来用容器跑软路由吧](https://kirikira.moe/post/49/)
+20. [Openwrt 作为旁路网关（不是旁路由、单臂路由）的终极设置方法，破解迷思](https://sspai.com/post/68511)
 
 
 
