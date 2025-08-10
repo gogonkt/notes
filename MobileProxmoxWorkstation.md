@@ -331,6 +331,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 20. https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml freeSub
 21. systemd-nspawn [别惦记你那All In BOOM了，来用容器跑软路由吧](https://kirikira.moe/post/49/)
 22. [Openwrt 作为旁路网关（不是旁路由、单臂路由）的终极设置方法，破解迷思](https://sspai.com/post/68511)
+23. [2025最新保姆级纯小白节点搭建教程](https://bulianglin.com/archives/nicename.html)
 
 
 
