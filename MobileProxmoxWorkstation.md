@@ -218,7 +218,17 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
   podman-compose up -d
 
   ```
-  
+-  https://github.com/louislam/dockge
+-   Advanced
+```
+If you want to store your stacks in another directory, you can generate your compose.yaml file by using the following URL with custom query strings.
+
+# Download your compose.yaml
+curl "https://dockge.kuma.pet/compose.yaml?port=5001&stacksPath=/opt/stacks" --output compose.yaml
+port=5001
+stacksPath=/opt/stacks
+Interactive compose.yaml generator is available on: https://dockge.kuma.pet
+```
   
 - Podman Socks5 [通过socks5本地代理下载docker镜像](https://blog.csdn.net/weixin_42603116/article/details/139870863)
 - [-p](https://docs.podman.io/en/v5.0.2/markdown/podman-run.1.html#publish-p-ip-hostport-containerport-protocol)
