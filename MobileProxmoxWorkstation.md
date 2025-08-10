@@ -150,7 +150,7 @@ echo 8 > /sys/class/backlight/acpi_video0/brightness
 - [Install an Alpine Desktop VM](https://homelab.casaursus.net/install-a-alpine-desktop-vm/) podman vm **Worked**
 - ==> vm need install dnsmasq on host ( [Guide: How to configure Proxmox with WiFi](https://blog.vivekkaushik.com/guide-how-to-configure-proxmox-with-wifi) [backup](https://github.com/gogonkt/notes/blob/main/Proxmox-WiFi.md)  **Worked**
 - [Docker + Dockge on a Alpine VM](https://homelab.casaursus.net/docker-dockge-on-a-alpine-vm/)
-- [Using Podman on Alpine Linux](https://0ink.net/posts/2025/2025-10-01-podman.html) Podman with Docker-Cli-compose
+- [Using Podman on Alpine Linux](https://0ink.net/posts/2025/2025-10-01-podman.html) Podman with Docker-Cli-compose [backup](https://github.com/gogonkt/notes/blob/main/podman-Docker-compose.md)
 - [Here's how I run Docker in an LXC on Proxmox, and why it's a solid alternative to a VM](https://www.xda-developers.com/heres-how-i-run-docker-in-an-lxc-on-proxmox/)
 - Unfortunately, setting up network shares inside unprivileged LXCs can be a bit of an issue. If you’re planning to connect CIFS/NFS volumes to your Docker LXC, you might want to opt for a privileged container. But since these LXCs map the container UID 0 to the Proxmox host’s UID 0, you’ll have to deal with heightened security risks.
 - [I switched to Podman from Docker, and I should have done it sooner](https://www.xda-developers.com/i-switched-to-podman-instead-of-docker/)
