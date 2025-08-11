@@ -298,6 +298,9 @@ Interactive compose.yaml generator is available on: https://dockge.kuma.pet
   - ```pct set 100 -mp0 /mnt/bindmounts/shared,mp=/shared```
 - [how to increase the size of proxmox LXC container???](https://forum.proxmox.com/threads/how-to-increase-the-size-of-proxmox-lxc-container.119453/)
   - ``` # pct resize 999 rootfs 200G ```
+  - 
+  - 
+  - [How to delete a cluster on Proxmox](https://rostislavjadavan.com/posts/promox-delete-cluster)
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
