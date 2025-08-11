@@ -376,3 +376,6 @@ Interactive compose.yaml generator is available on: https://dockge.kuma.pet
 # tethering iPhone
 - [How to get unlimited 5G tethering with an unjailbroken iPhone](https://dogparty.medium.com/how-to-get-unlimited-5g-tethering-with-an-unjailbroken-iphone-ceff3a1f3642)
 - [Howto: Internet tethering with iPhone using usb cable](https://forum.tinycorelinux.net/index.php/topic,21713.0.html)
+
+# Wall
+- [s-ui](https://github.com/alireza0/s-ui)
