@@ -301,6 +301,20 @@ Interactive compose.yaml generator is available on: https://dockge.kuma.pet
   - 
   - 
   - [How to delete a cluster on Proxmox](https://rostislavjadavan.com/posts/promox-delete-cluster)
+  - ```
+    systemctl stop pve-cluster
+    systemctl stop corosync
+
+    pmxcfs -l
+
+    rm /etc/pve/corosync.conf
+    rm -r /etc/corosync/*
+
+    killall pmxcfs
+
+    systemctl start pve-cluster
+    ```
+  
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
