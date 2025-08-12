@@ -30,4 +30,4 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
   #fr.cdn.proxmox.com has IPv6 address 2001:41d0:b00:5900::34
   51.91.38.34    download.proxmox.com
   ```
-
+- https://mirrors.tuna.tsinghua.edu.cn/help/proxmox/
