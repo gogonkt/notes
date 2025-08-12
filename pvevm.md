@@ -23,4 +23,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 # 4. Enable time synchronization
 apt install systemd-timesyncd -y && timedatectl set-ntp true
 ```
-- 
+- https://forum.proxmox.com/threads/download-mirrors-for-download-proxmox-com.69400/
+- ```
+  #212.224.123.70    download.proxmox.com
+  #fr.cdn.proxmox.com has address 51.91.38.34
+  #fr.cdn.proxmox.com has IPv6 address 2001:41d0:b00:5900::34
+  51.91.38.34    download.proxmox.com
+  ```
+
