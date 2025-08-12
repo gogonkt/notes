@@ -1,6 +1,7 @@
 pvevm.md
 
-# Proxmox-GitOps implements a self-sufficient, extensible CI/CD environment for provisioning, configuring, and orchestrating Linux Containers (LXC) within Proxmox VE. Leveraging an Infrastructure-as-Code (IaC) approach, it manages the entire container lifecycle—bootstrapping, deployment, configuration, and validation—through version-controlled automation.
+# Proxmox-GitOps
+- Proxmox-GitOps implements a self-sufficient, extensible CI/CD environment for provisioning, configuring, and orchestrating Linux Containers (LXC) within Proxmox VE. Leveraging an Infrastructure-as-Code (IaC) approach, it manages the entire container lifecycle—bootstrapping, deployment, configuration, and validation—through version-controlled automation.
 - [Proxmox-GitOps](https://github.com/stevius10/Proxmox-GitOps)
 - https://github.com/stevius10/Proxmox-GitOps/wiki ==>
 - The following commands and configurations are required on Proxmox host:
