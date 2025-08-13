@@ -12,3 +12,7 @@ internet-sharing.md
 - [Run an OpenWRT VM on Proxmox VE](https://i12bretro.github.io/tutorials/0405.html)
 - [setup_openwrt_lxc_container_proxmox.sh](https://gist.github.com/suuhm/053f819b000bee4af922d66ff6c5d32e)
 - [install_openwrt_proxmox.sh](https://gist.github.com/jaminmc/7e786a8947746439f7b8a8e2726e629d)
+
+# Wall
+- [singbox 软网关篇](https://www.byxiao.top/archives/singboxForLinux)
+- [singbox搭配dae实现软网关！透明代理！比openwrt还好用！效率更高！](https://www.youtube.com/watch?v=OpcDct3cqPI&t=743s)
