@@ -10,3 +10,5 @@ internet-sharing.md
 - OpenWrt
 - [Proxmox PVE上安裝Openwrt的幾個重點：VM or LXC？哪個鏡像？網卡直通？一鍵安裝？](https://upsangel.com/openwrt/how-to-install-openwrt-on-proxmox/)
 - [Run an OpenWRT VM on Proxmox VE](https://i12bretro.github.io/tutorials/0405.html)
+- [setup_openwrt_lxc_container_proxmox.sh](https://gist.github.com/suuhm/053f819b000bee4af922d66ff6c5d32e)
+- [install_openwrt_proxmox.sh](https://gist.github.com/jaminmc/7e786a8947746439f7b8a8e2726e629d)
