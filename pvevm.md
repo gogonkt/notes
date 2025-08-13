@@ -37,4 +37,5 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
-- 
+- [ryzen-gpu-passthrough-proxmox](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
+
