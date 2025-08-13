@@ -6,3 +6,6 @@ internet-sharing.md
 - [arch-wlan-to-eth.sh](https://gist.github.com/dimkouv/8aa8e509f562b103fe20a51cffc1af1c)
 - ## AP
 - [Set up an access point on Linux using hostapd and dnsmasq](https://finchsec-1672417305892.hashnode.dev/linux-ap-hostapd-dnsmasq-dhcp)
+
+- OpenWrt
+- [Proxmox PVE上安裝Openwrt的幾個重點：VM or LXC？哪個鏡像？網卡直通？一鍵安裝？](https://upsangel.com/openwrt/how-to-install-openwrt-on-proxmox/)
