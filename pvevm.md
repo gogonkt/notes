@@ -34,3 +34,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
   51.91.38.34    download.proxmox.com
   ```
 - https://mirrors.tuna.tsinghua.edu.cn/help/proxmox/
+
+# CPU
+- [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
+- 
