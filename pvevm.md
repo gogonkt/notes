@@ -45,6 +45,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # Router
 - [Virtual Router in Proxmox with the Skullsaints Onyx](https://kayg.org/updates/virtual-router-proxmox-skullsaints-onyx)
+- iptables ebtables nftables
+- [BridgeNetworkConnections](https://wiki.debian.org/BridgeNetworkConnections) Information about sending packets between multiple physical networks (e.g. a device's WiFi and wired networks) as if they were all connected to each other. For general information about network configuration, see NetworkConfiguration.
 
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
