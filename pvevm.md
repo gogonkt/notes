@@ -55,6 +55,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 - [Using A Computer With No Internet Connection](https://hagensieker.com/2023/12/27/using-a-computer-with-no-internet-connection/)
 - [How to Connect Two Computers Remotely: 4 Easy Methods](https://deskin.io/resource/blog/how-to-connect-two-computers)
+- [How to build and run MJPG-Streamer on the Raspberry Pi](https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi)
+- [How to build a Linux-based wireless router out of spare parts (1998) (rage.net)](https://news.ycombinator.com/item?id=34666142)
 
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
