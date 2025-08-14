@@ -47,6 +47,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - [Virtual Router in Proxmox with the Skullsaints Onyx](https://kayg.org/updates/virtual-router-proxmox-skullsaints-onyx)
 - iptables ebtables nftables  A modern packet filtering framework that replaces both iptables and ebtables. 
 - [BridgeNetworkConnections](https://wiki.debian.org/BridgeNetworkConnections) Information about sending packets between multiple physical networks (e.g. a device's WiFi and wired networks) as if they were all connected to each other. For general information about network configuration, see NetworkConfiguration.
+- [connecting 2 Linux PCs directly with ethernet cable](https://www.reddit.com/r/linuxquestions/comments/kkkd17/connecting_2_linux_pcs_directly_with_ethernet/)
 
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
