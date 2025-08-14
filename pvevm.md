@@ -44,7 +44,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - [ryzen-gpu-passthrough-proxmox](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
 
 # Router
-- [Setting up a virtual router (pfSense on Proxmox)](https://victoronsoftware.com/posts/setting-up-a-virtual-router/)
+- [Setting up a virtual router (pfSense on Proxmox)](https://victoronsoftware.com/posts/setting-up-a-virtual-router/) pfSense
+- [How to Set Up Proxmox Network - Virtual Router Configuration for LAN Separation and Access via WireGuard](https://devintrap.com/notes/2024/01/28/how-to-setup-proxmox-network-virtual-router-configuration-for-lan-separation-and-access-via-wireguard/) VyOS
 - [Virtual Router in Proxmox with the Skullsaints Onyx](https://kayg.org/updates/virtual-router-proxmox-skullsaints-onyx)
 - iptables ebtables nftables  A modern packet filtering framework that replaces both iptables and ebtables. 
 - [BridgeNetworkConnections](https://wiki.debian.org/BridgeNetworkConnections) Information about sending packets between multiple physical networks (e.g. a device's WiFi and wired networks) as if they were all connected to each other. For general information about network configuration, see NetworkConfiguration.
