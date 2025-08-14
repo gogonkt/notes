@@ -43,3 +43,6 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
 - [ryzen-gpu-passthrough-proxmox](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
 
+# HDMI Capture MS2130
+- [Linux 4K HDMI Capture](https://www.drejo.com/blog/linux-4k-hdmi-capture/)
+- [USB3.0 video capture card MS2130 chip solution](https://www.purplelec.com/info-detail/type-c-video-capture-card)
