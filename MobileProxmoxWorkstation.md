@@ -396,3 +396,19 @@ Interactive compose.yaml generator is available on: https://dockge.kuma.pet
 
 # Wall
 - [s-ui](https://github.com/alireza0/s-ui)
+
+
+# HDMI Capture MS2130
+- [Linux 4K HDMI Capture](https://www.drejo.com/blog/linux-4k-hdmi-capture/)
+- [USB3.0 video capture card MS2130 chip solution](https://www.purplelec.com/info-detail/type-c-video-capture-card)
+- [Linux使用USB擷取卡，搭配OBS Studio錄製遊戲HDMI輸出的畫面](https://ivonblog.com/posts/linux-uvc-capture-card/)
+- [Ludicrously cheap HDMI capture for Linux](https://blog.benjojo.co.uk/post/cheap-hdmi-capture-for-linux)
+- need OBS
+
+# OBS
+- https://github.com/obsproject/obs-studio/wiki/install-instructions#linux
+- ```
+  apt install v4l2loopback-dkms
+  https://github.com/obsproject/obs-studio/wiki/install-instructions#linux
+  ```
+- 
