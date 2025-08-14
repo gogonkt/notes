@@ -23,6 +23,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 # 4. Enable time synchronization
 apt install systemd-timesyncd -y && timedatectl set-ntp true
 ```
+- [Proxmox VE CPU Scaling Governor](https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor)
+
+
+# Ref.
 - https://forum.proxmox.com/threads/download-mirrors-for-download-proxmox-com.69400/
 - ```
   #212.224.123.70    download.proxmox.com
