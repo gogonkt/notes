@@ -48,6 +48,13 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - iptables ebtables nftables  A modern packet filtering framework that replaces both iptables and ebtables. 
 - [BridgeNetworkConnections](https://wiki.debian.org/BridgeNetworkConnections) Information about sending packets between multiple physical networks (e.g. a device's WiFi and wired networks) as if they were all connected to each other. For general information about network configuration, see NetworkConfiguration.
 - [connecting 2 Linux PCs directly with ethernet cable](https://www.reddit.com/r/linuxquestions/comments/kkkd17/connecting_2_linux_pcs_directly_with_ethernet/)
+- 
+
+- [Proxmox part 6: Virtualized nftables home LAN router](https://blog.rymcg.tech/blog/proxmox/06-router/)
+- 
+
+- [Using A Computer With No Internet Connection](https://hagensieker.com/2023/12/27/using-a-computer-with-no-internet-connection/)
+- [How to Connect Two Computers Remotely: 4 Easy Methods](https://deskin.io/resource/blog/how-to-connect-two-computers)
 
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
