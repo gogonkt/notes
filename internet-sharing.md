@@ -16,3 +16,4 @@ internet-sharing.md
 # Wall
 - [singbox 软网关篇](https://www.byxiao.top/archives/singboxForLinux)
 - [singbox搭配dae实现软网关！透明代理！比openwrt还好用！效率更高！](https://www.youtube.com/watch?v=OpcDct3cqPI&t=743s)
+- Linux 安装 Tailscale 并设置出口节点 keyword
