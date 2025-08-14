@@ -52,3 +52,9 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # OBS
 - https://github.com/obsproject/obs-studio/wiki/install-instructions#linux
+- ```
+  apt install v4l2loopback-dkms
+  https://github.com/obsproject/obs-studio/wiki/install-instructions#linux
+  ```
+- 
+
