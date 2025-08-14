@@ -58,3 +58,6 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
   ```
 - 
 
+# Bluetooth Keyboard
+- [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
+- 
