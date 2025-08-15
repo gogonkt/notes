@@ -27,6 +27,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - RVEvm over Wifi [==>](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#wifi-setup)
 - ```apt install wpasupplicant wireless-tools```
 - ```vi /etc/network/interfaces```
+- ```dhclient -r wlp4s0```
+- ```dhclient wlp4s0```
 - ```
         auto wlp3s0
         iface wlp3s0 inet static
