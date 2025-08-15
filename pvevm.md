@@ -34,17 +34,17 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - ```vi /etc/network/interfaces```
 - #1
 - ```
-        auto wlp3s0
-        iface wlp3s0 inet static
-        address 192.168.1.59/24
+        auto wlp4s0
+        iface wlp4s0 inet static
+        address 192.168.1.108/24
         gateway 192.168.1.1
         wpa-ssid [your wifi ssid]
         wpa-psk [your wifi password]
   ```
 - #2
 - ```
-  auto wlp3s0
-  iface wlp3s0 inet dhcp
+  auto wlp4s0
+  iface wlp4s0 inet dhcp
   wpa-essid MYESSID12345
   wpa-psk MYPASSWORD$1234567
   ```
