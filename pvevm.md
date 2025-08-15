@@ -24,6 +24,18 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 apt install systemd-timesyncd -y && timedatectl set-ntp true
 ```
 - [Proxmox VE CPU Scaling Governor](https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor)
+- RVEvm over Wifi [==>](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#wifi-setup)
+- ```apt install wpasupplicant wireless-tools```
+- ```vi /etc/network/interfaces```
+- ```
+        auto wlp3s0
+        iface wlp3s0 inet static
+        address 192.168.1.59/24
+        gateway 192.168.1.1
+        wpa-ssid [your wifi ssid]
+        wpa-psk [your wifi password]
+  ```
+- 
 
 
 # Ref.
@@ -38,6 +50,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
   51.91.38.34    download.proxmox.com
   ```
 - https://mirrors.tuna.tsinghua.edu.cn/help/proxmox/
+
+
 
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
