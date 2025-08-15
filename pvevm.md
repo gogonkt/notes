@@ -97,7 +97,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 ```
 Warning
 This method creates unencrypted ad-hoc network. See #wpa_supplicant for method using WPA encryption.
-See Wireless network configuration#iw for a better explanation of the following commands. Make sure that iw is installed.
+See Wireless network configuration#iw for a better explanation of the following commands.
+Make sure that iw is installed.
 
 Set the operation mode to ibss:
 
@@ -105,7 +106,11 @@ Set the operation mode to ibss:
 Bring the interface up (an additional step like rfkill unblock wifi might be needed):
 
 # ip link set interface up
-Now you can create an ad-hoc network. Replace your_ssid with the name of the network and frequency with the frequency in MHz, depending on which channel you want to use. See the Wikipedia page List of WLAN channels for a table showing frequencies of individual channels.
+Now you can create an ad-hoc network. Replace your_ssid with the name of the network and frequency
+with the frequency in MHz, depending on which channel you want to use. See the Wikipedia page List
+of WLAN channels for a table showing frequencies of individual channels.
+# iw interface ibss join your_ssid frequency
+
 ```
 -
 # iw interface ibss join your_ssid frequency
