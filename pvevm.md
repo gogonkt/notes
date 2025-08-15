@@ -93,7 +93,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # Linux WiFi Ad-hoc mode
 - [Linux WiFi Ad-hoc mode](https://wiki.lm-technologies.com/linux-wifi-ad-hoc-mode/)
--
+- [Ad-hoc networking](https://wiki.archlinux.org/title/Ad-hoc_networking)
 ```
 Warning
 This method creates unencrypted ad-hoc network. See #wpa_supplicant for method using WPA encryption.
