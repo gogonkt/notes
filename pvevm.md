@@ -109,7 +109,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
   ifconfig wlan0 192.168.1.2 netmask 255.255.255.0
   ```
-
+- iw [Replacing iwconfig with iw](https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw/replace-iwconfig.html)
 
 
 
