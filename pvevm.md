@@ -24,7 +24,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 apt install systemd-timesyncd -y && timedatectl set-ntp true
 ```
 - [Proxmox VE CPU Scaling Governor](https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor)
-- RVEvm over Wifi [==>](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#wifi-setup)
+- PVEvm over Wifi [==>](https://github.com/gogonkt/notes/blob/main/MobileProxmoxWorkstation.md#wifi-setup)
 - ```apt install wpasupplicant wireless-tools```
 - 
 - ```wpa_supplicant -B -i wlp4s0 -c <(wpa_passphrase yourSSID yourpassword)```
