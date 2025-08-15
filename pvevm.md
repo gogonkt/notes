@@ -90,6 +90,30 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - [How to build and run MJPG-Streamer on the Raspberry Pi](https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi)
 - [How to build a Linux-based wireless router out of spare parts (1998) (rage.net)](https://news.ycombinator.com/item?id=34666142)
 
+
+# Linux WiFi Ad-hoc mode
+- [Linux WiFi Ad-hoc mode](https://wiki.lm-technologies.com/linux-wifi-ad-hoc-mode/)
+- [Creating wireless ad-hoc network in Linux](https://addisu.taddese.com/blog/creating-wireless-ad-hoc-network-in-linux/)
+- ```bash
+  # Step 1: Change wifi interface configuration to ad-hoc
+  # On both machines:
+
+  iwconfig wlan0 mode Ad-hoc
+  iwconfig wlan0 essid MyWifi
+
+  # Step 2: Set the IP addresses
+  # On Machine A:
+
+  ifconfig wlan0 192.168.1.1 netmask 255.255.255.0
+  #On Machine B:
+
+  ifconfig wlan0 192.168.1.2 netmask 255.255.255.0
+  ```
+
+
+
+
+  
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
 - 
