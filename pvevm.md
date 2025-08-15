@@ -93,6 +93,23 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # Linux WiFi Ad-hoc mode
 - [Linux WiFi Ad-hoc mode](https://wiki.lm-technologies.com/linux-wifi-ad-hoc-mode/)
+-
+```
+Warning
+This method creates unencrypted ad-hoc network. See #wpa_supplicant for method using WPA encryption.
+See Wireless network configuration#iw for a better explanation of the following commands. Make sure that iw is installed.
+
+Set the operation mode to ibss:
+
+# iw interface set type ibss
+Bring the interface up (an additional step like rfkill unblock wifi might be needed):
+
+# ip link set interface up
+Now you can create an ad-hoc network. Replace your_ssid with the name of the network and frequency with the frequency in MHz, depending on which channel you want to use. See the Wikipedia page List of WLAN channels for a table showing frequencies of individual channels.
+```
+-
+# iw interface ibss join your_ssid frequency
+
 - [Creating wireless ad-hoc network in Linux](https://addisu.taddese.com/blog/creating-wireless-ad-hoc-network-in-linux/)
 - ```bash
   # Step 1: Change wifi interface configuration to ad-hoc
