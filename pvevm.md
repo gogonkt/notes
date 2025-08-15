@@ -82,6 +82,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - 
 
 - [Proxmox part 6: Virtualized nftables home LAN router](https://blog.rymcg.tech/blog/proxmox/06-router/)
+- [微型家用网络折腾记](https://opswill.com/articles/vyos-as-a-home-router.html)
 - 
 
 - [Using A Computer With No Internet Connection](https://hagensieker.com/2023/12/27/using-a-computer-with-no-internet-connection/)
