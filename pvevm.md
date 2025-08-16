@@ -64,7 +64,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
   ```
 - https://mirrors.tuna.tsinghua.edu.cn/help/proxmox/
 
-
+# backup and restore
+- [How to Move virtual machine (VM) between different Proxmox VE (PVE) hosts or clusters (General ideas/Methods)](https://dannyda.com/2022/04/26/how-to-move-virtual-machine-vm-between-different-proxmox-ve-pve-hosts-or-clusters-general-ideas-methods/)
 
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
