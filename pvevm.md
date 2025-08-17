@@ -133,7 +133,9 @@ of WLAN channels for a table showing frequencies of individual channels.
   ```
 - iw [Replacing iwconfig with iw](https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw/replace-iwconfig.html)
 
-
+# tty screen resolution
+- [Debian and the adventure of the screen resolution](https://ral-arturo.org/2023/01/30/console.html)
+- [How to enable 1280x800 resolution in tty?](https://askubuntu.com/questions/17912/how-to-enable-1280x800-resolution-in-tty)
 
   
 # Bluetooth Keyboard
