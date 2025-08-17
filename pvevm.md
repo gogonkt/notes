@@ -136,7 +136,11 @@ of WLAN channels for a table showing frequencies of individual channels.
 # tty screen resolution
 - [Debian and the adventure of the screen resolution](https://ral-arturo.org/2023/01/30/console.html)
 - [How to enable 1280x800 resolution in tty?](https://askubuntu.com/questions/17912/how-to-enable-1280x800-resolution-in-tty)
-
+- ```
+  #GRUB_GFXMODE=640x480
+  GRUB_GFXMODE=1366x768
+  GRUB_GFXPAYLOAD_LINUX=keep
+  ```
   
 # Bluetooth Keyboard
 - [Bluetooth keyboard](https://kellner.io/bluetooth-keyboard.html)
