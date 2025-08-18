@@ -24,10 +24,12 @@ internet-sharing.md
 - [Run tailscale in docker with exit node enabled](https://dausruddin.com/run-tailscale-in-docker-with-exit-node-enabled/)
 - [How to install Tailscale on Proxmox, not a CT or VM](https://www.reddit.com/r/Proxmox/comments/17rpsgz/how_to_install_tailscale_on_proxmox_not_a_ct_or_vm/)
 - ```
-  I run tailscale in an Ubuntu 22.04 lxc on proxmox. Follow these steps to get it working in an unprivileged lxc.
-  https://tailscale.com/kb/1130/lxc-unprivileged/ Then you can use the regular Ubuntu install instructions
-  https://tailscale.com/kb/1031/install-linux/ Then I have it setup as a subject router to allow me to access anything on
-   my local network https://tailscale.com/kb/1019/subnets/?tab=linux And also as an exit node in case I want to use it as
-   a VPN to route all my traffic through my home network from away https://tailscale.com/kb/1103/exit-nodes/?tab=linux
-  All in all it takes like 5 minutes to get everything set up and running.
+  I run tailscale in an Ubuntu 22.04 lxc on proxmox. Follow these steps to get it working in
+  an unprivileged lxc.  https://tailscale.com/kb/1130/lxc-unprivileged/ Then you can use the
+  regular Ubuntu install instructions https://tailscale.com/kb/1031/install-linux/ Then I have
+  it setup as a subject router to allow me to access anything on my local
+  network https://tailscale.com/kb/1019/subnets/?tab=linux And also as an exit node in case I
+  want to use it as a VPN to route all my traffic through my home network from away
+  https://tailscale.com/kb/1103/exit-nodes/?tab=linux All in all it takes like 5 minutes to
+  get everything set up and running.
   ```
