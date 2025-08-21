@@ -31,6 +31,11 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - ```dhclient -r wlp4s0```
 - ```dhclient wlp4s0```
 - 
+
+- ```dhcpcd -k interface```
+- ```dhcpcd -n interface```
+- The first says to release and deconfigure the interface, and the second says to reload configuration and rebind the interface again.
+- 
 - ```vi /etc/network/interfaces```
 - #1
 - ```
