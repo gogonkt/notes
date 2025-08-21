@@ -83,7 +83,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # nc
 - [Fast way to copy a large file on a LAN](http://unix.stackexchange.com/questions/48399/fast-way-to-copy-a-large-file-on-a-lan)
-- 
+- ```user@dest:/target$ nc -q 1 -l -p 1234 | tar xv```
+- ```user@source:/source$ tar cv . | nc -q 1 dest-ip 1234```
 
 
 # CPU
