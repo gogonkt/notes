@@ -79,6 +79,7 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - ```rsync -avz --progress local/path/some_file usr@server.com:"/some/path/"```
 - [How to Use Rsync Command in Linux: 16 Practical Examples](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 - ```rsync -avzh /root/rpmpkgs root@192.168.0.141:/root/```
+- [Rsync hangs on large files – Quick fixes !!](https://bobcares.com/blog/rsync-hangs-on-large-files/)
 
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
