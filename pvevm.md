@@ -81,6 +81,11 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - ```rsync -avzh /root/rpmpkgs root@192.168.0.141:/root/```
 - [Rsync hangs on large files – Quick fixes !!](https://bobcares.com/blog/rsync-hangs-on-large-files/)
 
+# nc
+- [Fast way to copy a large file on a LAN](http://unix.stackexchange.com/questions/48399/fast-way-to-copy-a-large-file-on-a-lan)
+- 
+
+
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
 - [ryzen-gpu-passthrough-proxmox](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
