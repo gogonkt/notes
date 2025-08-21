@@ -74,6 +74,12 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 - 2.3 Use scp command to transfer the backup to the target PVE host
 - ```scp SourceFile user2@10.0.0.2:folder1/DestinationFile```
 
+# Rsync
+- [scp stalled while copying large files](https://stackoverflow.com/questions/20625000/scp-stalled-while-copying-large-files)
+- ```rsync -avz --progress local/path/some_file usr@server.com:"/some/path/"```
+- [How to Use Rsync Command in Linux: 16 Practical Examples](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
+- ```rsync -avzh /root/rpmpkgs root@192.168.0.141:/root/```
+
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
 - [ryzen-gpu-passthrough-proxmox](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
