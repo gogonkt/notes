@@ -71,6 +71,8 @@ apt install systemd-timesyncd -y && timedatectl set-ntp true
 
 # backup and restore
 - [How to Move virtual machine (VM) between different Proxmox VE (PVE) hosts or clusters (General ideas/Methods)](https://dannyda.com/2022/04/26/how-to-move-virtual-machine-vm-between-different-proxmox-ve-pve-hosts-or-clusters-general-ideas-methods/)
+- 2.3 Use scp command to transfer the backup to the target PVE host
+- ```scp SourceFile user2@10.0.0.2:folder1/DestinationFile```
 
 # CPU
 - [锐翊6800H-ES小主机PVE Windows11LTSC核显直通记录](https://blog.im.ci/now-life/somethings/1336/)
