@@ -315,6 +315,7 @@ Interactive compose.yaml generator is available on: https://dockge.kuma.pet
     systemctl start pve-cluster
     ```
   - [ProxMox Cluster - Soup-to-Nutz](https://gist.github.com/scyto/76e94832927a89d977ea989da157e9dc)
+  - [Proxmox Cheatsheet](https://medium.com/@sm4rthink/proxmox-cheatsheet-b3e92da768bc)
 
 # kubernetes self hosted
 - [QuickStart: Installing KubeVirt In Under 5 Minutes](https://dev.to/thenjdevopsguy/quickstart-installing-kubevirt-in-under-5-minutes-226h)
