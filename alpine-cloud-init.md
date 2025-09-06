@@ -39,4 +39,9 @@ poweroff
 ```
 After you power off, don’t start the machine again!
 
+- Add cloud-init
+- hardware >> add >> cloud drive
+- This will be our cloud-init CDROM. The type of the device (IDE, SCSI) and its number doesn’t matter. cloud-init looks up the drive by the filesystem label which must be set to CIDATA.
+- Once you do that, convert the VM to a ```template```.
+- 
 
