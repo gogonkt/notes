@@ -4,7 +4,20 @@ dietPi.md
 - [DietPi LXC containers in Proxmox](https://dietpi.com/blog/?p=2642)
 - https://dietpi.com/docs/install/#how-to-install-dietpi-proxmox
 - [Powerful HomeLab with DietPi instead of Cloud hosting](https://medium.com/@takerman/self-hosted-bargain-for-small-business-instead-cloud-hosting-20cbea73b315)
-- 
+- [Kick-start your own home sever in under 30min with Docker](https://medium.com/@sheldon.chiu1998/kick-start-your-own-home-sever-in-under-30min-with-docker-ef205ef066f8)
+- Dietpi
+- ```dietpi-software```
+- Docker and Docker Compose
+- Deploying docker container
+  - Portainer
+  - Bitwarden
+  - Nextcloud
+  - Photoprism
+  - Plex
+  - Trilium
+  - qBittorrent and AriaNg
+  - Duplicati
+  - 
 
 - 
 
