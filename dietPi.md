@@ -19,7 +19,7 @@ dietPi.md
   - Duplicati
   - 
 
-- 
+- [Building a Home Lab with Raspberry Pis and k8s](https://iamsafts.com/posts/homelab-intro/)
 
 # Top Home Server OS list
 - [Top Home Server OS list](https://www.virtualizationhowto.com/2023/09/top-5-home-server-os-distros-for-self-hosting/#h-top-home-server-os-list)
