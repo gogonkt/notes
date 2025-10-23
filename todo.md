@@ -4,12 +4,16 @@ todo.md
 
 ### Inbox
 - [x] 1
-- [ ] 
+- [ ] 2
 
 ### Weekly agenda
 [!MON] monday
 
-### PARA
+
+<details>
+<summary>PARA</summary>
+  
+
 
 #### Projects
 
@@ -18,3 +22,5 @@ todo.md
 #### Resources
 
 #### Archives
+
+</details>
