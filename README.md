@@ -1,8 +1,8 @@
 # notes
 
 # Forth
-Forth_Notes.md https://gist.github.com/gogonkt/a849fc0d97bf239591679fc6b47001cd
-[FORTH interpreter in 130* lines of Python](https://jpeckham.com/projects/forth-compiler-in-python/)
+- Forth_Notes.md https://gist.github.com/gogonkt/a849fc0d97bf239591679fc6b47001cd
+- [FORTH interpreter in 130* lines of Python](https://jpeckham.com/projects/forth-compiler-in-python/)
 
 # KIM-1 MOS 6502 Vintage Computer
 - http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/
