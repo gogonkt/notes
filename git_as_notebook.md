@@ -37,3 +37,4 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/m
 #
 - https://rogerdudler.github.io/git-guide/
 - https://andrewpwheeler.com/2024/01/14/getting-started-with-github-notes/
+- [Lesson 3. First steps with git: clone, add, commit, push Intro version control git](https://earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
