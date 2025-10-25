@@ -44,6 +44,7 @@ USB MIDI Controller https://github.com/hugbed/midi-controller
 - AKT
 - [Storehouse Analytics](https://www.youtube.com/@storehouseanalytics477) youtube
 - [Trading Institutional Order Flow](https://www.forexfactory.com/thread/590109-trading-institutional-order-flow) forexfactory
+- [Supply and Demand Lessons](https://www.youtube.com/watch?v=xuXSwsikZt4&list=PLUtqywdQ39_r9o-xfIqNpDCBTceTA2sAx)
 
 ---
 # Linux
